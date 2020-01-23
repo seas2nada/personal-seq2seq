@@ -8,4 +8,4 @@ To do list: Add attention
 
 Problems: performance decreases as number of sequence increases
 
-Performance: 73% accuracy for now
+Performance: 73% test accuracy for now
