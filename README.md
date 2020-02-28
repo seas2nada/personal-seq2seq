@@ -1,8 +1,7 @@
-# personal-seq2seq
-seq2seq tutorial with MNIST dataset for personal study
+# Personal-seq2seq
 
-Problems:
+## MNIST
+Sequence to sequence using MNIST dataset
 
-How to batchfy data with difference number of sequences
-
-Performance: 99%
+## E2E_ASR
+Personal tool for End to End Acoustic Speech Recognition
