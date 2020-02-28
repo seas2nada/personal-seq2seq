@@ -1,0 +1,948 @@
+data/train/feats/an251-fash-b.npy	53 62 83
+data/train/feats/an253-fash-b.npy	17 76
+data/train/feats/an254-fash-b.npy	53 62 83
+data/train/feats/an255-fash-b.npy	51 25 27 53 18 39
+data/train/feats/cen1-fash-b.npy	18 20 27 20 4 18
+data/train/feats/cen2-fash-b.npy	3 25 53
+data/train/feats/cen4-fash-b.npy	25 31 34 6 52 31 31 5
+data/train/feats/cen5-fash-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen7-fash-b.npy	50 39 7 15 15 33 7
+data/train/feats/an86-fbbh-b.npy	4 54 5 54 52 7
+data/train/feats/an87-fbbh-b.npy	2 65 81 39 50 15
+data/train/feats/an88-fbbh-b.npy	6 81 56 84 31 42 18 10 20 13 55
+data/train/feats/an89-fbbh-b.npy	2 82 59 78 86 42 17 21 52 2 59 38 28 12 28
+data/train/feats/an90-fbbh-b.npy	30
+data/train/feats/cen1-fbbh-b.npy	18 31 52 6 24 24
+data/train/feats/cen2-fbbh-b.npy	2 59 6 2 92 6 34 24 53
+data/train/feats/cen3-fbbh-b.npy	12 33 12 39
+data/train/feats/cen4-fbbh-b.npy	2 79 34 20 27 4 6
+data/train/feats/cen5-fbbh-b.npy	17 20 2 59 35 31 27 20 3
+data/train/feats/cen6-fbbh-b.npy	33 13 32 15 15
+data/train/feats/cen7-fbbh-b.npy	15 15 47 39 47 33 50
+data/train/feats/cen8-fbbh-b.npy	25 58 60 70 44 61 29 49 7
+data/train/feats/an146-fclc-b.npy	27 24 27 35 33 38 13
+data/train/feats/an147-fclc-b.npy	2 80 6 6 3 39
+data/train/feats/an148-fclc-b.npy	6 81 56 84 31 21 42 23 35 45 13
+data/train/feats/an149-fclc-b.npy	2 65 81 28 7 95 28
+data/train/feats/an150-fclc-b.npy	6 81 56 84 4 23 4 52 16 7 95 13
+data/train/feats/cen1-fclc-b.npy	4 31 27 27 6 24 24 53
+data/train/feats/cen2-fclc-b.npy	4 20 27 5 53
+data/train/feats/cen3-fclc-b.npy	13 13 47 13
+data/train/feats/cen4-fclc-b.npy	3 53 24 6 35 2 59 31 34 31
+data/train/feats/cen5-fclc-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fclc-b.npy	33 13 50 33 36
+data/train/feats/cen7-fclc-b.npy	39 7 36 13 7 32 7
+data/train/feats/cen8-fclc-b.npy	22 74 62 9 88 29 40 36
+data/train/feats/an36-fejs-b.npy	2 82 59 78 86 4 53 34 2 59 36 7
+data/train/feats/an37-fejs-b.npy	6 81 56 84 21 17 2 80 53 7 39 33
+data/train/feats/an38-fejs-b.npy	17 76
+data/train/feats/an39-fejs-b.npy	17 4 5 31 15
+data/train/feats/an40-fejs-b.npy	54 20 34 23 39 15 15
+data/train/feats/cen1-fejs-b.npy	35 4 3 2 92 20 27 4 23 53
+data/train/feats/cen2-fejs-b.npy	21 6 3 27
+data/train/feats/cen3-fejs-b.npy	33 55 39 13
+data/train/feats/cen4-fejs-b.npy	10 20 27 5 24 6 53 5 34 20 2 92 6
+data/train/feats/cen5-fejs-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fejs-b.npy	33 13 50 50 33
+data/train/feats/cen7-fejs-b.npy	50 39 7 47 7 55 50
+data/train/feats/cen8-fejs-b.npy	50 11 40 50
+data/train/feats/an291-ffmm-b.npy	2 65 81 13
+data/train/feats/an292-ffmm-b.npy	2 65 81 38 7
+data/train/feats/an293-ffmm-b.npy	23 24 25 51 13 50 36 15
+data/train/feats/an294-ffmm-b.npy	18 2 59 17 24 38 36
+data/train/feats/an295-ffmm-b.npy	2 92 3 5 34 45 33 32 36
+data/train/feats/cen1-ffmm-b.npy	25 31 5 51 17 27 31
+data/train/feats/cen2-ffmm-b.npy	10 34 3 27 4 6 35 25 3 34 53
+data/train/feats/cen3-ffmm-b.npy	12 39 45 50
+data/train/feats/cen4-ffmm-b.npy	2 79 18 20 24 24 20 2 79 35
+data/train/feats/cen5-ffmm-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-ffmm-b.npy	33 13 50 33 36
+data/train/feats/cen7-ffmm-b.npy	15 33 50 15 50 33 7 7 28 39
+data/train/feats/cen8-ffmm-b.npy	35 66 87 73 59 67 11 88 29 40 13
+data/train/feats/an76-fjam-b.npy	53 62 83
+data/train/feats/an77-fjam-b.npy	6 81 56 84 2 92 2 94 35 2 94 50 15 28 28
+data/train/feats/an78-fjam-b.npy	34 2 80 54 18 15
+data/train/feats/an79-fjam-b.npy	2 82 59 78 86 21 51 20 2 79 47 50 7
+data/train/feats/an80-fjam-b.npy	41 77
+data/train/feats/cen1-fjam-b.npy	25 3 34 27 6 24 24
+data/train/feats/cen2-fjam-b.npy	21 51 24 20 6
+data/train/feats/cen3-fjam-b.npy	36 12 13
+data/train/feats/cen4-fjam-b.npy	25 6 25 31 34 53 24 3 27 6
+data/train/feats/cen5-fjam-b.npy	25 4 23 6 6 35 2 79 31 34 42
+data/train/feats/cen6-fjam-b.npy	33 13 33 47 47
+data/train/feats/cen7-fjam-b.npy	39 39 15 36 50 28 47
+data/train/feats/cen8-fjam-b.npy	26 95 49 10 71 81 85 29 40
+data/train/feats/an121-fjdn-b.npy	18 64 79
+data/train/feats/an122-fjdn-b.npy	2 65 81 7 50 15 50
+data/train/feats/an123-fjdn-b.npy	2 65 81 12 15
+data/train/feats/an124-fjdn-b.npy	2 82 59 78 86 31 2 80 20 25 20 45 50
+data/train/feats/an125-fjdn-b.npy	2 65 81 11
+data/train/feats/cen1-fjdn-b.npy	27 6 24 35 31 27
+data/train/feats/cen2-fjdn-b.npy	21 6 27 27 20 10 6 34
+data/train/feats/cen3-fjdn-b.npy	45 47
+data/train/feats/cen4-fjdn-b.npy	23 51 27 42 54
+data/train/feats/cen5-fjdn-b.npy	2 59 6 34 23 6 24 6 53
+data/train/feats/cen6-fjdn-b.npy	32 36 28 50 50
+data/train/feats/cen7-fjdn-b.npy	50 32 33 15 39 15 39 32 7 47
+data/train/feats/cen8-fjdn-b.npy	25 58 60 70 42 93 62 74 86 71 62 88 29 38
+data/train/feats/an10-fjmd-b.npy	17 50 7 95 28
+data/train/feats/an6-fjmd-b.npy	30
+data/train/feats/an7-fjmd-b.npy	31 51 15 36 49 28
+data/train/feats/an8-fjmd-b.npy	2 59 36 49 13
+data/train/feats/an9-fjmd-b.npy	21 15 45 47
+data/train/feats/cen1-fjmd-b.npy	5 34 3 2 92 23
+data/train/feats/cen2-fjmd-b.npy	21 6 3 27 6 42 42 6
+data/train/feats/cen3-fjmd-b.npy	33 43
+data/train/feats/cen4-fjmd-b.npy	35 2 79 34 20 27 17 18 31 51 35 6
+data/train/feats/cen5-fjmd-b.npy	52 34 20 17 18 42 35 2 92 20 24 24 6
+data/train/feats/cen6-fjmd-b.npy	33 36 47 39 7
+data/train/feats/cen7-fjmd-b.npy	50 13 50 50 32 50 28
+data/train/feats/cen8-fjmd-b.npy	9 28 40 7
+data/train/feats/an311-fkai-b.npy	6 81 56 84 20 35 24 10 45 7
+data/train/feats/an312-fkai-b.npy	6 81 56 84 54 53 17 27 2 79 7 19 2 57 49 47
+data/train/feats/an313-fkai-b.npy	6 81 56 84 42 25 3 54 2 94 50 46 13 19 2 57 12 50
+data/train/feats/an314-fkai-b.npy	3 25 35 21 36 46 33 19 2 57 7 95 39
+data/train/feats/an315-fkai-b.npy	2 65 81 12 33
+data/train/feats/cen1-fkai-b.npy	20 2 92 3 34 35 31 27
+data/train/feats/cen2-fkai-b.npy	23 3 34 24 3
+data/train/feats/cen3-fkai-b.npy	33 46
+data/train/feats/cen4-fkai-b.npy	25 31 34 6 52 31 31 5
+data/train/feats/cen5-fkai-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fkai-b.npy	33 13 50 33 36
+data/train/feats/cen7-fkai-b.npy	15 15 15 36
+data/train/feats/cen8-fkai-b.npy	31 60 89 59 67 10 71 81 85 29 40 28
+data/train/feats/an131-fkdo-b.npy	2 82 59 78 86 52 24 10 2 94 53 36 32 39 28
+data/train/feats/an132-fkdo-b.npy	17 76
+data/train/feats/an133-fkdo-b.npy	34 66 63 86
+data/train/feats/an134-fkdo-b.npy	41 77
+data/train/feats/an135-fkdo-b.npy	2 82 59 78 86 51 42 10 10 7
+data/train/feats/cen1-fkdo-b.npy	31 24 3 4 23
+data/train/feats/cen2-fkdo-b.npy	23 3 34 6 27
+data/train/feats/cen3-fkdo-b.npy	50 50 28 47
+data/train/feats/cen4-fkdo-b.npy	3 24 25 31 27 42
+data/train/feats/cen5-fkdo-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fkdo-b.npy	33 13 50 33 32
+data/train/feats/cen7-fkdo-b.npy	7 7 50 7 33 32 50
+data/train/feats/cen8-fkdo-b.npy	13 49 39 14 13
+data/train/feats/an61-flmm2-b.npy	2 65 81 36 32 47 7
+data/train/feats/an62-flmm2-b.npy	2 65 81 13 55
+data/train/feats/an63-flmm2-b.npy	2 65 81 13 47 15 47
+data/train/feats/an64-flmm2-b.npy	2 65 81 15
+data/train/feats/an65-flmm2-b.npy	2 94 17 20 4 50
+data/train/feats/cen1-flmm2-b.npy	25 3 4 3 24 51 35 31
+data/train/feats/cen2-flmm2-b.npy	24 20 27 5 3
+data/train/feats/cen3-flmm2-b.npy	47 15 7 55
+data/train/feats/cen4-flmm2-b.npy	25 6 3 5 31 52 17 3 42 6 5 34 20 2 92 6
+data/train/feats/cen6-flmm2-b.npy	33 13 39 39 7
+data/train/feats/cen7-flmm2-b.npy	47 50 36 33 39 28 13
+data/train/feats/cen8-flmm2-b.npy	45 33 21 3 27 51 3 34 53 33 28 36 55
+data/train/feats/an21-flrp-b.npy	35 54 23 52 52 50 45 36
+data/train/feats/an2121-flrp-b.npy	54 4 2 59 6 17 38 28
+data/train/feats/an22-flrp-b.npy	53 62 83
+data/train/feats/an23-flrp-b.npy	2 82 59 78 86 54 53 42 24 12 33
+data/train/feats/an24-flrp-b.npy	34 66 63 86
+data/train/feats/an25-flrp-b.npy	2 82 59 78 86 31 17 5 6 15 36 13 36
+data/train/feats/cen1-flrp-b.npy	2 79 31 25 6 34 3 27 42 54
+data/train/feats/cen2-flrp-b.npy	24 20 27 5 3
+data/train/feats/cen3-flrp-b.npy	12 33 11
+data/train/feats/cen4-flrp-b.npy	25 3 34 17 3 34 6 42
+data/train/feats/cen5-flrp-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-flrp-b.npy	33 13 50 33 47
+data/train/feats/cen7-flrp-b.npy	50 39 7 13 28 13 50
+data/train/feats/cen8-flrp-b.npy	47 49 36 40 7
+data/train/feats/an116-fmjc-b.npy	31 3 25 21 33 13 47
+data/train/feats/an117-fmjc-b.npy	2 82 59 78 86 25 27 54 24 47 36 36
+data/train/feats/an118-fmjc-b.npy	2 82 59 78 86 21 24 53 54 50
+data/train/feats/an119-fmjc-b.npy	2 65 81 45 13
+data/train/feats/an120-fmjc-b.npy	2 82 59 78 86 53 53 10 2 94 55
+data/train/feats/cen1-fmjc-b.npy	4 6 24 24 20 31
+data/train/feats/cen2-fmjc-b.npy	25 31 27 20 4 3
+data/train/feats/cen3-fmjc-b.npy	13 39 33 13
+data/train/feats/cen4-fmjc-b.npy	18 31 2 59 3 34 42
+data/train/feats/cen5-fmjc-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fmjc-b.npy	33 13 50 33 36
+data/train/feats/cen7-fmjc-b.npy	15 50 33 32 15 13 33
+data/train/feats/cen8-fmjc-b.npy	28 49 47 40 47
+data/train/feats/an191-fmjd-b.npy	30
+data/train/feats/an192-fmjd-b.npy	6 81 56 84 6 31 3 4 51 47
+data/train/feats/an193-fmjd-b.npy	6 81 56 84 53 2 59 6 21 2 80 13 32 36
+data/train/feats/an194-fmjd-b.npy	2 79 42 2 80 5 2 80 33
+data/train/feats/an195-fmjd-b.npy	20 5 25 18 36 7 13
+data/train/feats/cen1-fmjd-b.npy	5 31 52 24 20 27 17
+data/train/feats/cen2-fmjd-b.npy	25 3 34 53 21 31
+data/train/feats/cen3-fmjd-b.npy	39 13 47 15
+data/train/feats/cen4-fmjd-b.npy	5 3 24 54 6 24 24
+data/train/feats/cen5-fmjd-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fmjd-b.npy	33 13 50 33 36
+data/train/feats/cen7-fmjd-b.npy	15 50 33 32 33 28 39
+data/train/feats/cen8-fmjd-b.npy	36 16 40 33
+data/train/feats/an181-fnsv-b.npy	3 2 92 25 51 15 14 50
+data/train/feats/an182-fnsv-b.npy	34 66 63 86
+data/train/feats/an183-fnsv-b.npy	31 24 23 10 13 14 13
+data/train/feats/an184-fnsv-b.npy	30
+data/train/feats/an185-fnsv-b.npy	18 64 79
+data/train/feats/cen1-fnsv-b.npy	2 92 6 4 4 18 20
+data/train/feats/cen2-fnsv-b.npy	27 20 4 31 24 6
+data/train/feats/cen3-fnsv-b.npy	12 39 32 13
+data/train/feats/cen4-fnsv-b.npy	6 24 24 35 52 31 34 42 18
+data/train/feats/cen5-fnsv-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fnsv-b.npy	33 13 50 47 50
+data/train/feats/cen7-fnsv-b.npy	39 39 33 13 55 39 15
+data/train/feats/cen8-fnsv-b.npy	21 56 74 91 58 95 11 88 29 40 47
+data/train/feats/an91-fplp-b.npy	6 81 56 84 25 53 3 25 36
+data/train/feats/an92-fplp-b.npy	2 82 59 78 86 27 2 94 10 6 7 28 39
+data/train/feats/an93-fplp-b.npy	41 77
+data/train/feats/an94-fplp-b.npy	6 81 56 84 34 2 59 5 23 42 12
+data/train/feats/an95-fplp-b.npy	2 82 59 78 86 10 25 2 80 27 18 47 38
+data/train/feats/cen1-fplp-b.npy	2 79 31 25 6 34 3 27 42 54
+data/train/feats/cen2-fplp-b.npy	2 79 18 53 24 24 20 35
+data/train/feats/cen3-fplp-b.npy	33 50 15 33
+data/train/feats/cen4-fplp-b.npy	6 3 34 24 10 31 34 5
+data/train/feats/cen5-fplp-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fplp-b.npy	33 13 50 50 36
+data/train/feats/cen7-fplp-b.npy	7 7 15 33 55 13 36
+data/train/feats/cen8-fplp-b.npy	39 37 45 39
+data/train/feats/an296-fsaf2-b.npy	2 92 2 80 5 2 59 14 28 19
+data/train/feats/an297-fsaf2-b.npy	52 4 2 92 53 18 38 36 14 15
+data/train/feats/an298-fsaf2-b.npy	34 66 63 86
+data/train/feats/an299-fsaf2-b.npy	6 81 56 84 27 42 5 20 4 13 28 33
+data/train/feats/an300-fsaf2-b.npy	2 82 59 78 86 35 18 23 21 13 36 39
+data/train/feats/cen1-fsaf2-b.npy	10 3 34 34 6 24 24 53
+data/train/feats/cen2-fsaf2-b.npy	35 18 6 20 24 3
+data/train/feats/cen3-fsaf2-b.npy	33 49
+data/train/feats/cen4-fsaf2-b.npy	42 3 27 17 24 6 52 53 24 5 6
+data/train/feats/cen5-fsaf2-b.npy	2 59 34 31 27 2 94 2 92 20 24 24 6
+data/train/feats/cen6-fsaf2-b.npy	33 32 36 32 7
+data/train/feats/cen7-fsaf2-b.npy	28 33 15 47 47 36 33 7 39 28
+data/train/feats/cen8-fsaf2-b.npy	13 39 87 62 74 40 28
+data/train/feats/an166-fsrb-b.npy	3 3 20 24 55
+data/train/feats/an167-fsrb-b.npy	2 65 81 14 36 14 36
+data/train/feats/an168-fsrb-b.npy	2 82 59 78 86 24 5 34 52 49 39
+data/train/feats/an169-fsrb-b.npy	2 65 81 40 33
+data/train/feats/an170-fsrb-b.npy	2 65 81 15 12 39
+data/train/feats/cen1-fsrb-b.npy	2 59 51 34 23 35
+data/train/feats/cen2-fsrb-b.npy	35 18 3 34 31 27
+data/train/feats/cen3-fsrb-b.npy	45 50 45 33
+data/train/feats/cen4-fsrb-b.npy	3 34 3 2 79 3 18 31 6
+data/train/feats/cen5-fsrb-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-fsrb-b.npy	33 13 50 15 33
+data/train/feats/cen7-fsrb-b.npy	15 33 50 7 47 33 28 13 33 47
+data/train/feats/cen8-fsrb-b.npy	5 62 60 62 73 59 67 8 88 29 14 15
+data/train/feats/an326-ftal-b.npy	41 77
+data/train/feats/an327-ftal-b.npy	2 65 81 36 36
+data/train/feats/an328-ftal-b.npy	21 35 2 79 35 54 28 39 28
+data/train/feats/an329-ftal-b.npy	2 59 53 2 92 25 7 15
+data/train/feats/an330-ftal-b.npy	2 65 81 50 39
+data/train/feats/cen1-ftal-b.npy	24 6 52 20 35
+data/train/feats/cen2-ftal-b.npy	42 34 3 4 53
+data/train/feats/cen3-ftal-b.npy	15 32 47
+data/train/feats/cen4-ftal-b.npy	2 92 3 24 6
+data/train/feats/cen5-ftal-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-ftal-b.npy	33 13 50 47 28
+data/train/feats/cen7-ftal-b.npy	50 39 7 47 55 50 36
+data/train/feats/cen8-ftal-b.npy	43 33 40 7
+data/train/feats/an211-ftmj-b.npy	2 65 81 40 39
+data/train/feats/an212-ftmj-b.npy	24 54 34 2 92 12 13 45 13
+data/train/feats/an213-ftmj-b.npy	2 82 59 78 86 2 79 27 3 25 2 94 38 50
+data/train/feats/an214-ftmj-b.npy	2 65 81 36
+data/train/feats/an215-ftmj-b.npy	53 62 83
+data/train/feats/cen1-ftmj-b.npy	21 6 42 42
+data/train/feats/cen2-ftmj-b.npy	42 6 34 20 27 3
+data/train/feats/cen3-ftmj-b.npy	49 50 49 39
+data/train/feats/cen4-ftmj-b.npy	18 3 52 42 18 31 34 27 6
+data/train/feats/cen5-ftmj-b.npy	35 52 20 35 35 2 92 3 24 6
+data/train/feats/cen6-ftmj-b.npy	33 13 50 33 7
+data/train/feats/cen7-ftmj-b.npy	50 36 33 55 7 50 39
+data/train/feats/cen8-ftmj-b.npy	22 72 95 44 86 71 62 88 29 40 13
+data/train/feats/an221-fwxs-b.npy	17 24 24 23 18 33
+data/train/feats/an222-fwxs-b.npy	18 64 79
+data/train/feats/an223-fwxs-b.npy	18 64 79
+data/train/feats/an224-fwxs-b.npy	21 2 92 2 79 6 7 36 55
+data/train/feats/an225-fwxs-b.npy	53 62 83
+data/train/feats/cen1-fwxs-b.npy	35 3 42 42 6 34 10 20 6 24 5
+data/train/feats/cen2-fwxs-b.npy	52 18 20 42 27 6 53
+data/train/feats/cen3-fwxs-b.npy	50 43
+data/train/feats/cen4-fwxs-b.npy	31 34 4 18 3 34 5 2 79 24 3 4 6
+data/train/feats/cen5-fwxs-b.npy	35 6 52 20 4 23 24 6 53
+data/train/feats/cen6-fwxs-b.npy	33 13 33 15 47
+data/train/feats/cen7-fwxs-b.npy	36 15 33 32 13 28 50
+data/train/feats/an371-mblb-b.npy	6 81 56 84 20 17 27 25 14 47 37
+data/train/feats/an372-mblb-b.npy	2 82 59 78 86 6 51 21 31 28 90 13
+data/train/feats/an373-mblb-b.npy	23 52 54 3 17 50 19 2 57 40 39
+data/train/feats/an374-mblb-b.npy	2 65 81 45 7 40 13
+data/train/feats/an375-mblb-b.npy	2 65 81 14 47 14 13
+data/train/feats/cen1-mblb-b.npy	2 59 34 51 25 20 42 42
+data/train/feats/cen2-mblb-b.npy	2 59 3 34 34 53
+data/train/feats/cen3-mblb-b.npy	33 43
+data/train/feats/cen4-mblb-b.npy	25 20 5 52 31 31 5
+data/train/feats/cen5-mblb-b.npy	52 3 42 6 34 2 59 51 34 53
+data/train/feats/cen6-mblb-b.npy	32 39 36 32 7
+data/train/feats/cen7-mblb-b.npy	50 32 47 36 13 36 7 7 28 28
+data/train/feats/cen8-mblb-b.npy	22 72 95 42 93 64 68 88 29 40 28
+data/train/feats/an1-mblw-b.npy	2 94 20 40 33
+data/train/feats/an2-mblw-b.npy	54 7 32 50
+data/train/feats/an3-mblw-b.npy	2 65 81 40
+data/train/feats/an4-mblw-b.npy	2 65 81 38 50
+data/train/feats/an5-mblw-b.npy	34 66 63 86
+data/train/feats/cen1-mblw-b.npy	52 6 20 5 6
+data/train/feats/cen2-mblw-b.npy	34 31 2 59 6 34 42
+data/train/feats/cen3-mblw-b.npy	14 47 49 47
+data/train/feats/cen4-mblw-b.npy	24 51 5 52 20 4 23
+data/train/feats/cen5-mblw-b.npy	2 79 17 18
+data/train/feats/cen6-mblw-b.npy	33 13 50 33 36
+data/train/feats/cen7-mblw-b.npy	15 50 50 32 7 33 39
+data/train/feats/cen8-mblw-b.npy	33 39 87 62 74 14 7
+data/train/feats/an266-mbmg-b.npy	2 65 81 12 15
+data/train/feats/an267-mbmg-b.npy	35 51 31 51 7 95 39
+data/train/feats/an268-mbmg-b.npy	6 81 56 84 35 2 92 27 53 43 43
+data/train/feats/an269-mbmg-b.npy	2 82 59 78 86 4 18 53 5 5 32
+data/train/feats/an270-mbmg-b.npy	2 65 81 33 14 50
+data/train/feats/cen1-mbmg-b.npy	17 31 42 42 20 6 34
+data/train/feats/cen2-mbmg-b.npy	2 59 34 20 3 27
+data/train/feats/cen3-mbmg-b.npy	47 32 33
+data/train/feats/cen4-mbmg-b.npy	2 79 3 34 23 34 31 3 5
+data/train/feats/cen5-mbmg-b.npy	5 31 52 27 20 27 17 42 31 52 27
+data/train/feats/cen6-mbmg-b.npy	33 28 47 47 13
+data/train/feats/cen7-mbmg-b.npy	50 33 13 15 13 7 13 15 39 28
+data/train/feats/cen8-mbmg-b.npy	35 66 87 73 59 67 49 36 88 29 40 36
+data/train/feats/an201-mcel-b.npy	41 77
+data/train/feats/an202-mcel-b.npy	34 66 63 86
+data/train/feats/an203-mcel-b.npy	2 65 81 7 33 28 39
+data/train/feats/an204-mcel-b.npy	41 58 86
+data/train/feats/an205-mcel-b.npy	2 82 59 78 86 10 53 27 2 79 28 90 36
+data/train/feats/cen1-mcel-b.npy	24 3 25 2 79 35 31 27
+data/train/feats/cen2-mcel-b.npy	4 24 3 34 23
+data/train/feats/cen3-mcel-b.npy	39 47 7
+data/train/feats/cen4-mcel-b.npy	17 3 34 24 3 27 5
+data/train/feats/cen5-mcel-b.npy	35 51 27 27 53 2 92 3 24 6
+data/train/feats/cen6-mcel-b.npy	28 15 32 7 39
+data/train/feats/cen8-mcel-b.npy	48 28 31 68 40
+data/train/feats/an126-mcen-b.npy	41 58 86
+data/train/feats/an127-mcen-b.npy	34 66 63 86
+data/train/feats/an128-mcen-b.npy	2 82 59 78 86 20 42 5 23 25 15 38 33
+data/train/feats/an129-mcen-b.npy	2 65 81 40
+data/train/feats/an130-mcen-b.npy	18 64 79
+data/train/feats/cen1-mcen-b.npy	27 6 52 6 24 24
+data/train/feats/cen2-mcen-b.npy	4 18 34 20 35
+data/train/feats/cen3-mcen-b.npy	12 7 32 28 2 57 3 18 56 72 68
+data/train/feats/cen4-mcen-b.npy	18 31 2 59 3 34 42
+data/train/feats/cen5-mcen-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mcen-b.npy	33 13 50 47 50
+data/train/feats/cen7-mcen-b.npy	13 50 33 40 12 13
+data/train/feats/cen8-mcen-b.npy	47 16 40 36
+data/train/feats/an261-mcfl-b.npy	41 58 86
+data/train/feats/an262-mcfl-b.npy	20 2 79 3 4 10 50 13 7
+data/train/feats/an263-mcfl-b.npy	2 82 59 78 86 20 34 5 5 21 33
+data/train/feats/an264-mcfl-b.npy	17 76
+data/train/feats/an265-mcfl-b.npy	53 62 83
+data/train/feats/cen1-mcfl-b.npy	10 6 5 31 34
+data/train/feats/cen2-mcfl-b.npy	4 18 34 20 35 42 31 2 79 18 6 34
+data/train/feats/cen3-mcfl-b.npy	33 15 7 50 47
+data/train/feats/cen4-mcfl-b.npy	24 31 27 17 2 92 20 6 52
+data/train/feats/cen5-mcfl-b.npy	27 6 52 2 59 51 34 53
+data/train/feats/cen6-mcfl-b.npy	15 15 32 39 13
+data/train/feats/cen7-mcfl-b.npy	39 15 13 47 47 39 15
+data/train/feats/cen8-mcfl-b.npy	7 16 40 15
+data/train/feats/an141-mcrt-b.npy	30
+data/train/feats/an142-mcrt-b.npy	2 65 81 28 90 15
+data/train/feats/an143-mcrt-b.npy	18 64 79
+data/train/feats/an144-mcrt-b.npy	2 82 59 78 86 10 2 59 25 21 36 43
+data/train/feats/an145-mcrt-b.npy	2 65 81 39
+data/train/feats/cen1-mcrt-b.npy	42 3 53 24 31 34
+data/train/feats/cen2-mcrt-b.npy	34 31 53
+data/train/feats/cen3-mcrt-b.npy	47 32 39
+data/train/feats/cen4-mcrt-b.npy	18 3 35 42 20 27 17 35
+data/train/feats/cen5-mcrt-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mcrt-b.npy	33 13 50 32 39
+data/train/feats/cen7-mcrt-b.npy	47 39 47 32 28 39 50
+data/train/feats/cen8-mcrt-b.npy	36 26 95 29 14 15
+data/train/feats/an231-mcsc-b.npy	2 65 81 13
+data/train/feats/an232-mcsc-b.npy	18 64 79
+data/train/feats/an233-mcsc-b.npy	17 76
+data/train/feats/an234-mcsc-b.npy	34 66 63 86
+data/train/feats/an235-mcsc-b.npy	30
+data/train/feats/cen1-mcsc-b.npy	4 3 24 20 17 20 51 34 20
+data/train/feats/cen2-mcsc-b.npy	4 18 3 34 24 6 35
+data/train/feats/cen3-mcsc-b.npy	33 55 55 39
+data/train/feats/cen4-mcsc-b.npy	42 34 6 27 42 31 27
+data/train/feats/cen5-mcsc-b.npy	2 79 17 18
+data/train/feats/cen6-mcsc-b.npy	33 13 50 50 33
+data/train/feats/cen7-mcsc-b.npy	36 47 33 33 47 47 7
+data/train/feats/cen8-mcsc-b.npy	47 48 12 7
+data/train/feats/an241-mdcs-b.npy	2 65 81 12 40 47
+data/train/feats/an242-mdcs-b.npy	2 92 52 3 2 59 52 50 16
+data/train/feats/an243-mdcs-b.npy	34 66 63 86
+data/train/feats/an244-mdcs-b.npy	24 34 34 23 20 15
+data/train/feats/an245-mdcs-b.npy	2 82 59 78 86 51 10 54 54 40 28
+data/train/feats/cen1-mdcs-b.npy	35 42 6 6 34 6
+data/train/feats/cen2-mdcs-b.npy	5 3 2 92 20 5
+data/train/feats/cen3-mdcs-b.npy	40 47 40 15 2 57 3 18 56 72 68
+data/train/feats/cen4-mdcs-b.npy	10 31 34 52 3 34 5
+data/train/feats/cen5-mdcs-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mdcs-b.npy	33 13 50 33 36
+data/train/feats/cen7-mdcs-b.npy	15 33 50 15 50 50 47 13 36 7
+data/train/feats/cen8-mdcs-b.npy	3 91 69 91 85 39 87 62 74 88 29 40 13
+data/train/feats/an111-mdcs2-b.npy	2 79 51 2 94 2 79 20 13
+data/train/feats/an112-mdcs2-b.npy	10 53 54 31 50 50 50
+data/train/feats/an113-mdcs2-b.npy	2 82 59 78 86 18 3 2 94 2 94 27 39 36 28 33
+data/train/feats/an114-mdcs2-b.npy	24 34 24 53 51 36 47
+data/train/feats/an115-mdcs2-b.npy	2 82 59 78 86 31 23 42 24 6 50 7 33
+data/train/feats/cen1-mdcs2-b.npy	35 27 31 52
+data/train/feats/cen2-mdcs2-b.npy	5 31 27 3 24 5
+data/train/feats/cen3-mdcs2-b.npy	16 16
+data/train/feats/cen4-mdcs2-b.npy	35 31 51 42 18
+data/train/feats/cen5-mdcs2-b.npy	2 79 20 42 42 35 2 59 51 34 17
+data/train/feats/cen6-mdcs2-b.npy	33 13 50 33 36
+data/train/feats/cen7-mdcs2-b.npy	15 50 33 39 50 7 47
+data/train/feats/cen8-mdcs2-b.npy	35 66 87 73 59 67 10 71 81 85 29 40 28
+data/train/feats/an206-mdmc-b.npy	2 82 59 78 86 54 31 42 10 50
+data/train/feats/an207-mdmc-b.npy	2 82 59 78 86 18 10 5 52 2 80 39 50 50
+data/train/feats/an208-mdmc-b.npy	2 82 59 78 86 27 2 59 3 23 28 90 39
+data/train/feats/an209-mdmc-b.npy	34 17 4 35 36 40 36
+data/train/feats/an210-mdmc-b.npy	2 82 59 78 86 54 17 5 34 17 28 28 15 39
+data/train/feats/cen1-mdmc-b.npy	4 3 34 34 6 24
+data/train/feats/cen2-mdmc-b.npy	5 3 2 92 20 5
+data/train/feats/cen3-mdmc-b.npy	13 43
+data/train/feats/cen4-mdmc-b.npy	18 20 17 18 24 3 27 5
+data/train/feats/cen5-mdmc-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mdmc-b.npy	33 13 50 32 39
+data/train/feats/cen7-mdmc-b.npy	47 39 33 55 33 13 13
+data/train/feats/cen8-mdmc-b.npy	27 71 74 88 31 68 35 66 87 73 59 67 29 40 15
+data/train/feats/an106-mdxn-b.npy	2 65 81 55
+data/train/feats/an107-mdxn-b.npy	42 2 92 3 18 12 50 12 47
+data/train/feats/an108-mdxn-b.npy	2 65 81 14 33
+data/train/feats/an109-mdxn-b.npy	2 59 2 92 20 2 80 17 7 95 39
+data/train/feats/an110-mdxn-b.npy	2 65 81 40 50 45 33
+data/train/feats/cen1-mdxn-b.npy	27 31 31 27 2 59 51 34 17
+data/train/feats/cen2-mdxn-b.npy	5 6 34 6 23
+data/train/feats/cen3-mdxn-b.npy	33 32 39
+data/train/feats/cen4-mdxn-b.npy	4 31 27 4 31 34 5
+data/train/feats/cen5-mdxn-b.npy	20 42 18 3 4 3
+data/train/feats/cen6-mdxn-b.npy	33 15 7 13 32
+data/train/feats/cen7-mdxn-b.npy	50 39 7 15 33 39 33
+data/train/feats/cen8-mdxn-b.npy	36 11 29 38
+data/train/feats/an26-mdxs-b.npy	53 62 83
+data/train/feats/an27-mdxs-b.npy	2 94 18 2 59 3 4 13 47 15 15
+data/train/feats/an28-mdxs-b.npy	41 58 86
+data/train/feats/an29-mdxs-b.npy	34 66 63 86
+data/train/feats/an30-mdxs-b.npy	30
+data/train/feats/cen1-mdxs-b.npy	35 42 31 5 31 24 35 23 53
+data/train/feats/cen2-mdxs-b.npy	5 3 27 20 6 24
+data/train/feats/cen3-mdxs-b.npy	47 38 33
+data/train/feats/cen4-mdxs-b.npy	2 59 31 51 2 80 51 6 42
+data/train/feats/cen5-mdxs-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mdxs-b.npy	33 13 50 33 47
+data/train/feats/cen7-mdxs-b.npy	15 33 50 39 7 36 7 7 36 33
+data/train/feats/cen8-mdxs-b.npy	22 72 95 49 28 29 40 28
+data/train/feats/an136-meab-b.npy	6 81 56 84 52 6 35 10 49 15 32 47
+data/train/feats/an137-meab-b.npy	2 82 59 78 86 17 51 23 6 2 92 28
+data/train/feats/an138-meab-b.npy	21 54 3 2 79 37
+data/train/feats/an139-meab-b.npy	2 65 81 7 45 50
+data/train/feats/an140-meab-b.npy	2 82 59 78 86 34 6 10 2 92 35 33 13 47 47
+data/train/feats/cen1-meab-b.npy	2 59 24 3 4 23 52 31 31 5
+data/train/feats/cen2-meab-b.npy	6 5 52 20 27
+data/train/feats/cen3-meab-b.npy	47 33 50
+data/train/feats/cen4-meab-b.npy	2 59 34 3 5 5 31 4 23
+data/train/feats/cen5-meab-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-meab-b.npy	33 13 50 50 33
+data/train/feats/cen7-meab-b.npy	15 33 50 50 15 50 39 39 50 39
+data/train/feats/cen8-meab-b.npy	39 39 87 62 74 40
+data/train/feats/an66-meht-b.npy	2 65 81 15 46 7 19 7 95 47
+data/train/feats/an67-meht-b.npy	30
+data/train/feats/an68-meht-b.npy	10 6 17 2 59 14 7
+data/train/feats/an69-meht-b.npy	34 66 63 86
+data/train/feats/an70-meht-b.npy	30
+data/train/feats/cen1-meht-b.npy	42 18 3 53 6 34
+data/train/feats/cen2-meht-b.npy	6 34 20 4
+data/train/feats/cen3-meht-b.npy	12 39 40 28
+data/train/feats/cen4-meht-b.npy	2 59 6 3 4 31 27
+data/train/feats/cen5-meht-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-meht-b.npy	33 13 50 33 36
+data/train/feats/cen7-meht-b.npy	15 33 50 13 50 33 50 7 50 15
+data/train/feats/cen8-meht-b.npy	15 36 40 15
+data/train/feats/an286-mema-b.npy	34 66 63 86
+data/train/feats/an287-mema-b.npy	34 18 18 51 10 50
+data/train/feats/an288-mema-b.npy	41 77
+data/train/feats/an289-mema-b.npy	2 65 81 28 7 28
+data/train/feats/an290-mema-b.npy	27 17 27 27 47 28 28
+data/train/feats/cen1-mema-b.npy	3 24 42 25 3 27 27
+data/train/feats/cen2-mema-b.npy	6 34 20 23
+data/train/feats/cen3-mema-b.npy	36 47 55
+data/train/feats/cen4-mema-b.npy	6 3 35 42 6 27 5 3 2 92 6
+data/train/feats/cen5-mema-b.npy	2 79 17 18
+data/train/feats/cen6-mema-b.npy	33 13 50 50 33
+data/train/feats/cen7-mema-b.npy	50 15 47 7 47 50 7
+data/train/feats/cen8-mema-b.npy	10 6 2 59 33 7 33 28 39 15
+data/train/feats/an256-mewl-b.npy	30
+data/train/feats/an257-mewl-b.npy	2 82 59 78 86 18 52 31 27 21 15 46 36 19 49 47
+data/train/feats/an258-mewl-b.npy	2 65 81 16
+data/train/feats/an259-mewl-b.npy	34 66 63 86
+data/train/feats/an260-mewl-b.npy	2 59 3 20 2 80 52 7
+data/train/feats/cen1-mewl-b.npy	24 6 51 24 20 6 42 42 6
+data/train/feats/cen2-mewl-b.npy	6 34 20 4
+data/train/feats/cen3-mewl-b.npy	2 59 31 2 94 7 32 36
+data/train/feats/cen4-mewl-b.npy	13 33 33 13 25 3 34 17 3 34 6 42
+data/train/feats/cen5-mewl-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mewl-b.npy	33 13 50 33 47
+data/train/feats/cen7-mewl-b.npy	50 39 7 15 39 13 7
+data/train/feats/cen8-mewl-b.npy	48 15 40 36
+data/train/feats/an161-mfaa-b.npy	18 2 79 5 10 42 40 47
+data/train/feats/an162-mfaa-b.npy	6 81 56 84 21 27 34 17 14 7
+data/train/feats/an163-mfaa-b.npy	2 65 81 28 90 7 49 7
+data/train/feats/an164-mfaa-b.npy	2 94 6 5 2 92 36
+data/train/feats/an165-mfaa-b.npy	53 10 21 23 50 7
+data/train/feats/cen1-mfaa-b.npy	3 24 24 6 2 92 3
+data/train/feats/cen2-mfaa-b.npy	10 20 24
+data/train/feats/cen3-mfaa-b.npy	13 39 47 33
+data/train/feats/cen4-mfaa-b.npy	52 20 24 23 20 27 35
+data/train/feats/cen5-mfaa-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mfaa-b.npy	33 13 50 33 36
+data/train/feats/cen7-mfaa-b.npy	13 50 33 32 50 39 7
+data/train/feats/cen8-mfaa-b.npy	43 45 33 12 7
+data/train/feats/an196-mgah-b.npy	2 65 81 38 33
+data/train/feats/an197-mgah-b.npy	2 65 81 15 49 33
+data/train/feats/an198-mgah-b.npy	2 65 81 33 28 90 39
+data/train/feats/an199-mgah-b.npy	30
+data/train/feats/an200-mgah-b.npy	41 58 86
+data/train/feats/cen1-mgah-b.npy	18 31 53
+data/train/feats/cen2-mgah-b.npy	17 24 6 27 27
+data/train/feats/cen3-mgah-b.npy	33 50 55
+data/train/feats/cen4-mgah-b.npy	34 51 35 23 20 27
+data/train/feats/cen5-mgah-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mgah-b.npy	33 13 50 33 47
+data/train/feats/cen7-mgah-b.npy	39 7 47 13 55 15 33
+data/train/feats/cen8-mgah-b.npy	3 91 69 91 85 49 2 84 60 76 75 29 40 33
+data/train/feats/an246-mjbh-b.npy	18 64 79
+data/train/feats/an247-mjbh-b.npy	17 76
+data/train/feats/an248-mjbh-b.npy	2 94 54 20 2 92 53 33
+data/train/feats/an249-mjbh-b.npy	41 77
+data/train/feats/an250-mjbh-b.npy	53 62 83
+data/train/feats/cen1-mjbh-b.npy	18 3 25 2 79 35 18 20 34 6
+data/train/feats/cen2-mjbh-b.npy	21 31 18 27
+data/train/feats/cen3-mjbh-b.npy	13 39 15 55
+data/train/feats/cen4-mjbh-b.npy	6 24 17 20 27
+data/train/feats/cen5-mjbh-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mjbh-b.npy	33 13 50 55 39
+data/train/feats/cen7-mjbh-b.npy	50 39 7 47 55 39 39
+data/train/feats/cen8-mjbh-b.npy	36 49 28 12 7
+data/train/feats/an171-mjda-b.npy	2 82 59 78 86 51 17 3 25 45 28
+data/train/feats/an172-mjda-b.npy	2 65 81 7 38 33
+data/train/feats/an173-mjda-b.npy	2 82 59 78 86 4 42 24 6 38 39 48
+data/train/feats/an174-mjda-b.npy	2 65 81 13
+data/train/feats/an175-mjda-b.npy	18 64 79
+data/train/feats/cen1-mjda-b.npy	3 35 2 79 27 6 35
+data/train/feats/cen2-mjda-b.npy	21 3 25 6 35
+data/train/feats/cen3-mjda-b.npy	36 45
+data/train/feats/cen4-mjda-b.npy	6 3 35 42 6 27 5 3 2 92 6 27 51 6
+data/train/feats/cen5-mjda-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mjda-b.npy	33 13 50 50 33
+data/train/feats/cen7-mjda-b.npy	50 39 7 47 32 13 15
+data/train/feats/cen8-mjda-b.npy	21 56 74 91 58 95 42 93 64 68 88 29 40 39
+data/train/feats/an16-mjdr-b.npy	6 25 2 59 54 39 7 39
+data/train/feats/an18-mjdr-b.npy	2 65 81 15 12 33
+data/train/feats/an19-mjdr-b.npy	2 82 59 78 86 31 18 17 2 79 5 50 28 36 39
+data/train/feats/an20-mjdr-b.npy	3 42 42 17 23 7 95 15
+data/train/feats/cen1-mjdr-b.npy	34 31 35 6 27 10 6 24 5
+data/train/feats/cen2-mjdr-b.npy	21 6 10 10
+data/train/feats/cen3-mjdr-b.npy	15 36 50 55
+data/train/feats/cen4-mjdr-b.npy	4 6 27 42 34 6 3 2 92 6 27 51 6
+data/train/feats/cen5-mjdr-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mjdr-b.npy	33 13 50 33 47
+data/train/feats/cen7-mjdr-b.npy	15 33 50 39 7 33 33 7 15 50
+data/train/feats/cen8-mjdr-b.npy	32 39 32 36 39 39
+data/train/feats/an156-mjes-b.npy	6 81 56 84 2 80 23 2 94 53 51 33 40 50
+data/train/feats/an157-mjes-b.npy	2 65 81 45 36
+data/train/feats/an158-mjes-b.npy	2 82 59 78 86 2 92 6 52 54 36 38 50
+data/train/feats/an159-mjes-b.npy	41 77
+data/train/feats/an160-mjes-b.npy	21 4 18 6 2 80 12 7 46 28 45 28
+data/train/feats/cen1-mjes-b.npy	35 52 3 34 42 54
+data/train/feats/cen2-mjes-b.npy	21 31 27 3 42 18 3 27
+data/train/feats/cen3-mjes-b.npy	45
+data/train/feats/cen4-mjes-b.npy	6 3 35 42 7 95 10 71 68 88 35 42 34 6 6 42
+data/train/feats/cen5-mjes-b.npy	27 6 52 53 31 34 23
+data/train/feats/cen6-mjes-b.npy	33 32 32 50 7
+data/train/feats/cen7-mjes-b.npy	50 33 50 13 36 32 50 36 7 15
+data/train/feats/cen8-mjes-b.npy	3 91 69 91 85 49 2 84 60 76 75 29 40 28
+data/train/feats/an216-mjgk-b.npy	2 92 6 34 23 6 45 13 45
+data/train/feats/an217-mjgk-b.npy	2 65 81 7 36
+data/train/feats/an218-mjgk-b.npy	41 77
+data/train/feats/an219-mjgk-b.npy	17 76
+data/train/feats/an220-mjgk-b.npy	2 65 81 47 7 95 39
+data/train/feats/cen1-mjgk-b.npy	23 6 3 27 6
+data/train/feats/cen2-mjgk-b.npy	21 31 35 6 2 79 18
+data/train/feats/cen4-mjgk-b.npy	35 2 79 34 20 27 17 18 31 51 35 6 24 3 27 6
+data/train/feats/cen5-mjgk-b.npy	31 3 79 76 85 81 77 70 62 18 3 34 3
+data/train/feats/cen6-mjgk-b.npy	33 13 50 47 7
+data/train/feats/cen7-mjgk-b.npy	15 50 50 50 32 7 28
+data/train/feats/cen8-mjgk-b.npy	22 74 62 49 44 61 29 40 28
+data/train/feats/an56-mjhp-b.npy	6 81 56 84 2 94 2 59 25 27 42 15 33 32 28
+data/train/feats/an57-mjhp-b.npy	10 23 3 51 50 15
+data/train/feats/an58-mjhp-b.npy	6 81 56 84 6 2 94 2 94 35 55
+data/train/feats/an59-mjhp-b.npy	3 17 24 17 3 39 15 28
+data/train/feats/an60-mjhp-b.npy	30
+data/train/feats/cen1-mjhp-b.npy	2 79 31 24 20 10 34 31 27 20
+data/train/feats/cen2-mjhp-b.npy	21 31 35 6 2 79 18
+data/train/feats/cen3-mjhp-b.npy	33 13 47 50
+data/train/feats/cen4-mjhp-b.npy	3 35 2 59 51 34 53 2 79 24 3 4 6
+data/train/feats/cen5-mjhp-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mjhp-b.npy	33 13 50 33 36
+data/train/feats/cen7-mjhp-b.npy	15 33 50 13 50 33 7 50 39 32
+data/train/feats/cen8-mjhp-b.npy	36 37 12 36
+data/train/feats/an176-mjjs2-b.npy	2 92 24 4 54 49 39
+data/train/feats/an177-mjjs2-b.npy	41 58 86
+data/train/feats/an178-mjjs2-b.npy	30
+data/train/feats/an179-mjjs2-b.npy	6 81 56 84 2 80 6 21 2 80 42 38 36
+data/train/feats/an180-mjjs2-b.npy	53 62 83
+data/train/feats/cen1-mjjs2-b.npy	35 23 6 6 35
+data/train/feats/cen2-mjjs2-b.npy	21 3 25 6 35
+data/train/feats/cen4-mjjs2-b.npy	3 25 2 79 6 34 6
+data/train/feats/cen5-mjjs2-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mjjs2-b.npy	33 13 50 55 36
+data/train/feats/cen7-mjjs2-b.npy	15 50 50 55 36 28 33
+data/train/feats/cen8-mjjs2-b.npy	10 62 59 82 58 95 7 70 29 12 50
+data/train/feats/an316-mkdb-b.npy	5 35 23 51 15 13 32 13
+data/train/feats/an317-mkdb-b.npy	2 65 81 36
+data/train/feats/an318-mkdb-b.npy	2 65 81 15
+data/train/feats/an319-mkdb-b.npy	2 82 59 78 86 34 54 34 2 92 54 28 90 7
+data/train/feats/an320-mkdb-b.npy	6 54 3 23 31 7
+data/train/feats/cen1-mkdb-b.npy	2 59 6 4 18 42 6 24
+data/train/feats/cen2-mkdb-b.npy	23 3 34 24
+data/train/feats/cen3-mkdb-b.npy	12 36 16 3
+data/train/feats/cen4-mkdb-b.npy	2 59 6 3 4 31 27
+data/train/feats/cen5-mkdb-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mkdb-b.npy	33 13 50 33 36
+data/train/feats/cen7-mkdb-b.npy	13 50 33 15 28 13 15
+data/train/feats/cen8-mkdb-b.npy	25 58 60 70 49 10 71 68 88 29 40 36
+data/train/feats/an186-mkem-b.npy	6 81 56 84 2 92 34 10 31 13
+data/train/feats/an187-mkem-b.npy	2 65 81 33 45 33
+data/train/feats/an188-mkem-b.npy	51 35 20 2 80 27 38 33
+data/train/feats/an189-mkem-b.npy	41 77
+data/train/feats/an190-mkem-b.npy	2 82 59 78 86 51 21 25 23 28
+data/train/feats/cen1-mkem-b.npy	25 31 18 27 23 6 34 27
+data/train/feats/cen2-mkem-b.npy	23 6 27
+data/train/feats/cen4-mkem-b.npy	4 25 51
+data/train/feats/cen5-mkem-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mkem-b.npy	33 13 50 33 47
+data/train/feats/cen7-mkem-b.npy	47 32 7 13
+data/train/feats/cen8-mkem-b.npy	26 95 27 71 74 88 40 50
+data/train/feats/an51-mmaf-b.npy	2 92 10 31 10 18 28 15
+data/train/feats/an52-mmaf-b.npy	2 65 81 36
+data/train/feats/an53-mmaf-b.npy	6 81 56 84 2 59 25 6 6 47 13 50
+data/train/feats/an54-mmaf-b.npy	41 58 86
+data/train/feats/an55-mmaf-b.npy	2 65 81 28 90 13
+data/train/feats/cen1-mmaf-b.npy	10 34 3 27 54 20 27 20
+data/train/feats/cen2-mmaf-b.npy	25 20 4 18 3 6 24
+data/train/feats/cen3-mmaf-b.npy	13 50 36
+data/train/feats/cen4-mmaf-b.npy	35 51 25 25 6 34 24 6 3
+data/train/feats/cen5-mmaf-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mmaf-b.npy	33 13 50 47 50
+data/train/feats/cen7-mmaf-b.npy	15 15 33 33 36 50 15
+data/train/feats/cen8-mmaf-b.npy	35 66 87 73 59 67 39 88 29 40 36
+data/train/feats/an321-mmal-b.npy	25 25 2 92 2 80 5 33 7 36
+data/train/feats/an322-mmal-b.npy	2 82 59 78 86 42 2 59 2 79 2 59 39
+data/train/feats/an323-mmal-b.npy	2 65 81 50 32 13
+data/train/feats/an324-mmal-b.npy	53 62 83
+data/train/feats/an325-mmal-b.npy	17 76
+data/train/feats/cen1-mmal-b.npy	24 51 2 59 20 27 35 23 20
+data/train/feats/cen2-mmal-b.npy	25 3 34 23
+data/train/feats/cen3-mmal-b.npy	12 47 14 50
+data/train/feats/cen4-mmal-b.npy	2 59 6 6 24 6 34
+data/train/feats/cen5-mmal-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mmal-b.npy	33 13 50 33 36
+data/train/feats/cen7-mmal-b.npy	39 7 33 36 36 13 50
+data/train/feats/cen8-mmal-b.npy	43 48 40 36
+data/train/feats/an46-mmap-b.npy	41 77
+data/train/feats/an47-mmap-b.npy	2 65 81 36 50 33 39
+data/train/feats/an48-mmap-b.npy	2 65 81 33 28
+data/train/feats/an49-mmap-b.npy	27 18 31 42 2 80 50 7 47
+data/train/feats/an50-mmap-b.npy	2 79 42 23 2 94 55
+data/train/feats/cen1-mmap-b.npy	2 79 51 35 23 3 34
+data/train/feats/cen2-mmap-b.npy	25 3 34 23
+data/train/feats/cen3-mmap-b.npy	39 45
+data/train/feats/cen4-mmap-b.npy	2 59 34 31 3 5 18 6 3 5 34 31 3 5
+data/train/feats/cen5-mmap-b.npy	4 34 3 10 42 31 27
+data/train/feats/cen6-mmap-b.npy	33 13 50 32 13
+data/train/feats/cen7-mmap-b.npy	28 50 50 36 50 50 55
+data/train/feats/cen8-mmap-b.npy	48 49 33 12 7
+data/train/feats/an336-mmdg-b.npy	17 3 2 59 18 50
+data/train/feats/an337-mmdg-b.npy	18 64 79
+data/train/feats/an338-mmdg-b.npy	2 65 81 39 33 50 13
+data/train/feats/an339-mmdg-b.npy	2 65 81 50 13 15 39
+data/train/feats/an340-mmdg-b.npy	53 62 83
+data/train/feats/cen1-mmdg-b.npy	17 34 31 35 35 25 3 27
+data/train/feats/cen2-mmdg-b.npy	25 20 4 18 3 6 24
+data/train/feats/cen3-mmdg-b.npy	39 47 50 47
+data/train/feats/cen4-mmdg-b.npy	5 31 51 17 24 3 35
+data/train/feats/cen5-mmdg-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mmdg-b.npy	33 13 50 33 36
+data/train/feats/cen7-mmdg-b.npy	15 33 50 13 50 33 13 47 47 28
+data/train/feats/cen8-mmdg-b.npy	50 49 15 14 28
+data/train/feats/an361-mmkw-b.npy	31 3 52 10 13 28
+data/train/feats/an362-mmkw-b.npy	2 92 23 54 31 40 50
+data/train/feats/an363-mmkw-b.npy	2 82 59 78 86 5 2 80 42 52 2 94 13 19 7 95 36
+data/train/feats/an364-mmkw-b.npy	18 64 79
+data/train/feats/an365-mmkw-b.npy	2 59 21 2 94 23 49 47
+data/train/feats/an59-mmkw-b.npy	3 17 24 17 3 39 19 14 28
+data/train/feats/cen1-mmkw-b.npy	52 20 24 24 20 3 25 35
+data/train/feats/cen2-mmkw-b.npy	25 3 42 42 18 6 52
+data/train/feats/cen3-mmkw-b.npy	47 50 36
+data/train/feats/cen4-mmkw-b.npy	2 79 20 27 6 18 51 34 35 42
+data/train/feats/cen5-mmkw-b.npy	25 3 51 24 5 20 27
+data/train/feats/cen6-mmkw-b.npy	50 28 39 39 50
+data/train/feats/cen7-mmkw-b.npy	7 32 47 50 47 15 13 28 36 50
+data/train/feats/cen8-mmkw-b.npy	8 10 62 59 82 58 95 29 38
+data/train/feats/an381-mmsh-b.npy	2 82 59 78 86 10 2 94 4 52 27 15
+data/train/feats/an382-mmsh-b.npy	2 82 59 78 86 6 54 51 3 20 11
+data/train/feats/an383-mmsh-b.npy	2 65 81 40 33
+data/train/feats/an384-mmsh-b.npy	2 82 59 78 86 27 54 2 94 24 45 33
+data/train/feats/an385-mmsh-b.npy	17 76
+data/train/feats/cen1-mmsh-b.npy	18 31 10 10 34 20 4 18 42 6 34
+data/train/feats/cen2-mmsh-b.npy	25 3 34 23
+data/train/feats/cen3-mmsh-b.npy	47 15 15
+data/train/feats/cen4-mmsh-b.npy	10 20 10 42 18 3 2 92 6 27 51 6
+data/train/feats/cen5-mmsh-b.npy	2 59 34 31 31 25 3 24 24
+data/train/feats/cen6-mmsh-b.npy	33 28 32 32 7
+data/train/feats/cen7-mmsh-b.npy	39 7 47 33 13 13 7
+data/train/feats/cen8-mmsh-b.npy	3 79 81 71 72 44 86 71 62 88 29 40 28
+data/train/feats/an386-mmtm-b.npy	2 65 81 39 15 13 33
+data/train/feats/an387-mmtm-b.npy	53 52 3 3 25 50
+data/train/feats/an388-mmtm-b.npy	41 58 86
+data/train/feats/an389-mmtm-b.npy	2 82 59 78 86 2 94 4 54 42 2 79 15
+data/train/feats/an390-mmtm-b.npy	34 66 63 86
+data/train/feats/cen1-mmtm-b.npy	25 3 35 31 27
+data/train/feats/cen2-mmtm-b.npy	25 3 42 42 18 6 52
+data/train/feats/cen3-mmtm-b.npy	33 9
+data/train/feats/cen4-mmtm-b.npy	31 24 5 2 59 3 34 27 5 34 20 2 92 6
+data/train/feats/cen5-mmtm-b.npy	2 92 6 34 31 27 3
+data/train/feats/cen6-mmtm-b.npy	33 13 33 15 36
+data/train/feats/cen7-mmtm-b.npy	36 28 47 13 15 50 28
+data/train/feats/cen8-mmtm-b.npy	3 91 69 91 85 49 15 88 29 12 50
+data/train/feats/an346-mnfe-b.npy	6 81 56 84 31 42 6 2 59 38 28
+data/train/feats/an347-mnfe-b.npy	18 64 79
+data/train/feats/an348-mnfe-b.npy	2 65 81 7 49 36
+data/train/feats/an349-mnfe-b.npy	2 82 59 78 86 34 34 27 3 3 28 90 15
+data/train/feats/an350-mnfe-b.npy	2 65 81 47
+data/train/feats/cen1-mnfe-b.npy	6 10 34 31 25
+data/train/feats/cen2-mnfe-b.npy	27 6 20 24
+data/train/feats/cen3-mnfe-b.npy	43 38 33
+data/train/feats/cen4-mnfe-b.npy	25 31 34 6 52 31 31 5
+data/train/feats/cen5-mnfe-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mnfe-b.npy	33 13 50 33 47
+data/train/feats/cen7-mnfe-b.npy	50 39 7 13 13 50 15
+data/train/feats/cen8-mnfe-b.npy	15 49 7 38 33
+data/train/feats/an81-mnjl-b.npy	2 65 81 7 95 28 14 47
+data/train/feats/an82-mnjl-b.npy	2 82 59 78 86 42 21 21 4 24 50
+data/train/feats/an83-mnjl-b.npy	2 65 81 39
+data/train/feats/an84-mnjl-b.npy	2 65 81 36 45 7
+data/train/feats/an85-mnjl-b.npy	2 82 59 78 86 3 5 6 51 53 47 40 15
+data/train/feats/cen1-mnjl-b.npy	24 31 31 10 2 59 31 51 34 34 31 52
+data/train/feats/cen2-mnjl-b.npy	27 3 42 18 3 27
+data/train/feats/cen3-mnjl-b.npy	33 46
+data/train/feats/cen5-mnjl-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mnjl-b.npy	33 13 50 33 47
+data/train/feats/cen7-mnjl-b.npy	15 33 50 50 39 7 15 15 36 15
+data/train/feats/cen8-mnjl-b.npy	48 29 40 28
+data/train/feats/an71-mrab-b.npy	17 6 6 2 79 4 36 33 32 36
+data/train/feats/an72-mrab-b.npy	41 77
+data/train/feats/an73-mrab-b.npy	2 65 81 50 32 36
+data/train/feats/an74-mrab-b.npy	2 82 59 78 86 2 80 2 80 2 80 2 79 14 13
+data/train/feats/an75-mrab-b.npy	6 81 56 84 4 2 59 21 2 92 4 45 13
+data/train/feats/cen1-mrab-b.npy	2 59 34 6 27 27 3 27
+data/train/feats/cen2-mrab-b.npy	34 31 2 59 6 34 42
+data/train/feats/cen3-mrab-b.npy	33 49 50
+data/train/feats/cen4-mrab-b.npy	31 3 23 5 3 24 6 5 34 20 2 92 6
+data/train/feats/cen5-mrab-b.npy	54 6 24 20 6 27 31 2 79 24 6
+data/train/feats/cen6-mrab-b.npy	33 39 32 39 47
+data/train/feats/cen7-mrab-b.npy	15 13 50 7 13 33 7
+data/train/feats/cen8-mrab-b.npy	47 49 7 40 33
+data/train/feats/an101-mrcb-b.npy	34 6 52 53 7 13 39
+data/train/feats/an102-mrcb-b.npy	30
+data/train/feats/an103-mrcb-b.npy	6 81 56 84 17 18 2 94 52 13 55 15 7 50
+data/train/feats/an104-mrcb-b.npy	41 58 86
+data/train/feats/an105-mrcb-b.npy	2 65 81 7 15
+data/train/feats/cen1-mrcb-b.npy	2 59 34 31 35 42
+data/train/feats/cen2-mrcb-b.npy	34 3 27 5 53
+data/train/feats/cen3-mrcb-b.npy	33 50 13 50
+data/train/feats/cen4-mrcb-b.npy	27 6 17 24 6 53
+data/train/feats/cen5-mrcb-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mrcb-b.npy	33 13 50 33 36
+data/train/feats/cen7-mrcb-b.npy	3 81 63 4 76 61 62 15 33 50 15 50 50 33 50 50 13
+data/train/feats/cen8-mrcb-b.npy	31 60 89 59 67 44 86 71 62 88 29 40 33
+data/train/feats/an236-mrjc2-b.npy	53 62 83
+data/train/feats/an237-mrjc2-b.npy	2 65 81 36
+data/train/feats/an238-mrjc2-b.npy	41 77
+data/train/feats/an239-mrjc2-b.npy	5 53 25 18 34 40 33
+data/train/feats/an240-mrjc2-b.npy	2 65 81 28 38 50
+data/train/feats/cen1-mrjc2-b.npy	4 24 31 51 42 20 6 34
+data/train/feats/cen2-mrjc2-b.npy	34 20 4 18 3 34 5
+data/train/feats/cen3-mrjc2-b.npy	40 36 43
+data/train/feats/cen4-mrjc2-b.npy	10 6 27 27 20 25 31 34 6
+data/train/feats/cen5-mrjc2-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mrjc2-b.npy	33 13 50 32 39
+data/train/feats/cen7-mrjc2-b.npy	39 39 13 28 39 39 13
+data/train/feats/cen8-mrjc2-b.npy	13 50 13 13 13
+data/train/feats/an281-mrmg-b.npy	2 65 81 50
+data/train/feats/an282-mrmg-b.npy	17 76
+data/train/feats/an283-mrmg-b.npy	2 82 59 78 86 25 5 25 42 17 28 39 36 32
+data/train/feats/an284-mrmg-b.npy	2 65 81 39
+data/train/feats/an285-mrmg-b.npy	2 82 59 78 86 27 3 10 23 2 92 45
+data/train/feats/cen1-mrmg-b.npy	17 34 6 6 27
+data/train/feats/cen2-mrmg-b.npy	34 20 4 18 3 34 5
+data/train/feats/cen3-mrmg-b.npy	33 32 50
+data/train/feats/cen4-mrmg-b.npy	6 3 35 42 6 27 5
+data/train/feats/cen5-mrmg-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mrmg-b.npy	33 13 50 50 33
+data/train/feats/cen7-mrmg-b.npy	50 15 50 50 28 33 50
+data/train/feats/cen8-mrmg-b.npy	33 36 14 36
+data/train/feats/an356-mscg2-b.npy	2 65 81 12 13
+data/train/feats/an357-mscg2-b.npy	53 62 83
+data/train/feats/an358-mscg2-b.npy	2 82 59 78 86 2 92 3 27 2 59 2 94 28
+data/train/feats/an359-mscg2-b.npy	2 79 31 51 27 2 59 13
+data/train/feats/an360-mscg2-b.npy	34 66 63 86
+data/train/feats/cen1-mscg2-b.npy	17 20 2 59 2 59 35
+data/train/feats/cen2-mscg2-b.npy	35 42 6 2 92 6 27
+data/train/feats/cen3-mscg2-b.npy	13 33 33 13
+data/train/feats/cen4-mscg2-b.npy	25 3 34 17 3 34 6 42
+data/train/feats/cen5-mscg2-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mscg2-b.npy	33 13 50 50 39
+data/train/feats/cen7-mscg2-b.npy	50 39 7 15 39 36 7
+data/train/feats/cen8-mscg2-b.npy	47 9 40 36
+data/train/feats/an341-msct-b.npy	53 62 83
+data/train/feats/an342-msct-b.npy	6 81 56 84 52 10 35 31 24 7 15 15
+data/train/feats/an343-msct-b.npy	2 65 81 49 28
+data/train/feats/an344-msct-b.npy	6 81 56 84 3 24 18 27 4 45 13
+data/train/feats/an345-msct-b.npy	6 81 56 84 2 92 53 52 24 34 36 55 33 33
+data/train/feats/cen1-msct-b.npy	42 20 25 25
+data/train/feats/cen2-msct-b.npy	35 42 6 2 92 6 27
+data/train/feats/cen3-msct-b.npy	13 33 28
+data/train/feats/cen4-msct-b.npy	35 6 25 2 79 24 6
+data/train/feats/cen5-msct-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-msct-b.npy	33 13 50 33 47
+data/train/feats/cen7-msct-b.npy	39 7 47 47 36 7 55
+data/train/feats/cen8-msct-b.npy	28 45 40 13
+data/train/feats/an226-msjm-b.npy	34 66 63 86
+data/train/feats/an227-msjm-b.npy	10 20 53 2 80 12 39
+data/train/feats/an228-msjm-b.npy	6 81 56 84 17 52 5 23 10 39 7 95 7
+data/train/feats/an229-msjm-b.npy	34 66 63 86
+data/train/feats/an230-msjm-b.npy	41 77
+data/train/feats/cen1-msjm-b.npy	25 3 18 31 27 6 53
+data/train/feats/cen2-msjm-b.npy	35 42 6 2 79 18 6 27
+data/train/feats/cen3-msjm-b.npy	33 50 50 50
+data/train/feats/cen4-msjm-b.npy	25 3 2 79 24 6
+data/train/feats/cen5-msjm-b.npy	17 24 6 27 35 18 3 52
+data/train/feats/cen6-msjm-b.npy	33 13 33 33 39
+data/train/feats/cen7-msjm-b.npy	15 7 39 47 28 13 32
+data/train/feats/cen8-msjm-b.npy	48 49 15 40 7
+data/train/feats/an351-msjr-b.npy	21 18 2 59 2 94 47 55
+data/train/feats/an352-msjr-b.npy	2 65 81 50
+data/train/feats/an353-msjr-b.npy	30
+data/train/feats/an354-msjr-b.npy	2 82 59 78 86 52 2 79 10 21 5 50 39
+data/train/feats/an355-msjr-b.npy	2 65 81 39 36
+data/train/feats/cen1-msjr-b.npy	34 31 54 6 2 92 6 24 5
+data/train/feats/cen2-msjr-b.npy	35 42 6 2 92 6 27
+data/train/feats/cen3-msjr-b.npy	7 14 33
+data/train/feats/cen4-msjr-b.npy	10 20 10 42 18
+data/train/feats/cen5-msjr-b.npy	2 92 6 34 31 27 3
+data/train/feats/cen6-msjr-b.npy	33 13 33 15 36
+data/train/feats/cen7-msjr-b.npy	7 50 39 7 39 7 36
+data/train/feats/cen8-msjr-b.npy	33 45 33 40 47
+data/train/feats/an100-mskh-b.npy	53 62 83
+data/train/feats/an96-mskh-b.npy	53 62 83
+data/train/feats/an97-mskh-b.npy	2 65 81 38 33
+data/train/feats/an98-mskh-b.npy	41 58 86
+data/train/feats/an99-mskh-b.npy	18 23 42 6 5 33 38
+data/train/feats/cen1-mskh-b.npy	18 3 27 5 6 34 35 31 27
+data/train/feats/cen2-mskh-b.npy	35 42 6 2 92 6 27
+data/train/feats/cen3-mskh-b.npy	39 55 33 13
+data/train/feats/cen4-mskh-b.npy	13 42 18 3 2 92 6 27 51 6
+data/train/feats/cen5-mskh-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mskh-b.npy	33 13 50 47 50
+data/train/feats/cen7-mskh-b.npy	39 39 33 28 7 7 15
+data/train/feats/cen8-mskh-b.npy	39 49 39 40 47
+data/train/feats/an276-msmn-b.npy	17 52 27 24 24 28 15
+data/train/feats/an277-msmn-b.npy	30
+data/train/feats/an278-msmn-b.npy	2 82 59 78 86 2 80 27 34 3 21 36 15 7
+data/train/feats/an279-msmn-b.npy	2 80 4 21 23 7 13 7
+data/train/feats/cen4-msmn-b.npy	2 59 51 34 4 18 10 6 20 24 5 3 2 92 6
+data/train/feats/cen5-msmn-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-msmn-b.npy	33 13 50 33 36
+data/train/feats/cen7-msmn-b.npy	15 33 50 15 50 50 28 7 50 7
+data/train/feats/cen8-msmn-b.npy	35 6 2 79 42 6 25 2 59 6 34 33 50 33 28 13 28
+data/train/feats/an331-msrb-b.npy	2 65 81 28
+data/train/feats/an332-msrb-b.npy	2 82 59 78 86 17 21 18 17 2 92 36
+data/train/feats/an333-msrb-b.npy	53 62 83
+data/train/feats/an334-msrb-b.npy	27 27 2 79 51 13
+data/train/feats/an335-msrb-b.npy	2 65 81 36
+data/train/feats/cen1-msrb-b.npy	2 59 34 31 52 27
+data/train/feats/cen2-msrb-b.npy	35 42 6 2 92 6
+data/train/feats/cen3-msrb-b.npy	33 47 39
+data/train/feats/cen4-msrb-b.npy	2 79 3 42 42 6 34 35 31 27
+data/train/feats/cen5-msrb-b.npy	4 3 34 27 6 17 20 6
+data/train/feats/cen6-msrb-b.npy	33 13 33 32 39
+data/train/feats/cen7-msrb-b.npy	50 36 28 50 47 50 15
+data/train/feats/cen8-msrb-b.npy	39 47 40 7
+data/train/feats/an301-mtcv-b.npy	2 82 59 78 86 51 42 5 3 50
+data/train/feats/an302-mtcv-b.npy	2 82 59 78 86 25 2 92 31 31 14 39
+data/train/feats/an303-mtcv-b.npy	6 81 56 84 23 21 54 10 25 12 15
+data/train/feats/an304-mtcv-b.npy	41 77
+data/train/feats/an305-mtcv-b.npy	2 65 81 7 55 39
+data/train/feats/cen1-mtcv-b.npy	2 92 3 27 5 6 34 24 3 3 27
+data/train/feats/cen2-mtcv-b.npy	42 31 25
+data/train/feats/cen3-mtcv-b.npy	7 15 39 36
+data/train/feats/cen4-mtcv-b.npy	35 24 6 6 2 79 53 18 31 24 24 31 52
+data/train/feats/cen5-mtcv-b.npy	52 3 34 34 6 27
+data/train/feats/cen6-mtcv-b.npy	15 15 15 7 15
+data/train/feats/cen7-mtcv-b.npy	7 13 39 33 15 28 55
+data/train/feats/cen8-mtcv-b.npy	33 50 36 39 47
+data/train/feats/an31-mtje-b.npy	6 81 56 84 35 35 52 54 28
+data/train/feats/an32-mtje-b.npy	53 62 83
+data/train/feats/an33-mtje-b.npy	6 81 56 84 10 18 2 59 23 54 40 28
+data/train/feats/an34-mtje-b.npy	53 62 83
+data/train/feats/an35-mtje-b.npy	18 54 3 6 47 36 13 33
+data/train/feats/cen1-mtje-b.npy	6 52 3 24 5
+data/train/feats/cen2-mtje-b.npy	42 20 25 31 42 18 53
+data/train/feats/cen3-mtje-b.npy	15 32 33
+data/train/feats/cen4-mtje-b.npy	4 6 27 42 34 6 3 2 92 6
+data/train/feats/cen5-mtje-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mtje-b.npy	33 13 50 47 50
+data/train/feats/cen7-mtje-b.npy	15 33 50 39 7 36 28 13 50 39
+data/train/feats/cen8-mtje-b.npy	43 49 7 40 28
+data/train/feats/an366-mtos-b.npy	25 10 17 20 23 50 40
+data/train/feats/an367-mtos-b.npy	35 10 2 80 2 80 23 39 46 7 19 2 57 7 95 33
+data/train/feats/an368-mtos-b.npy	18 2 80 10 2 94 15 46 47 19 2 57 7 95 39
+data/train/feats/an369-mtos-b.npy	53 62 83
+data/train/feats/an370-mtos-b.npy	2 82 59 78 86 27 3 17 23 23 47 45 39
+data/train/feats/cen1-mtos-b.npy	35 25 20 42 18
+data/train/feats/cen2-mtos-b.npy	42 18 31 25 3 35
+data/train/feats/cen3-mtos-b.npy	25 17 6 15 32 50
+data/train/feats/cen4-mtos-b.npy	25 31 34 6 52 31 31 5
+data/train/feats/cen5-mtos-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/train/feats/cen6-mtos-b.npy	33 13 50 33 47
+data/train/feats/cen7-mtos-b.npy	15 7 15 50
+data/train/feats/cen8-mtos-b.npy	48 43 40 28
+data/train/feats/an376-mtxj-b.npy	2 65 81 13 50 15
+data/train/feats/an377-mtxj-b.npy	2 82 59 78 86 21 2 59 2 94 34 54 28 49
+data/train/feats/an378-mtxj-b.npy	2 65 81 40 15
+data/train/feats/an379-mtxj-b.npy	41 77
+data/train/feats/an380-mtxj-b.npy	2 65 81 39 32 7 32
+data/train/feats/cen1-mtxj-b.npy	21 31 18 27 35 31 27
+data/train/feats/cen2-mtxj-b.npy	42 18 3 5
+data/train/feats/cen3-mtxj-b.npy	33 19
+data/train/feats/cen4-mtxj-b.npy	35 3 53 2 59 34 31 31 23 18 3 34 2 59 31 34
+data/train/feats/cen5-mtxj-b.npy	2 59 34 3 5 10 31 34 5 52 31 31 5 35
+data/train/feats/cen6-mtxj-b.npy	33 13 32 33 13
+data/train/feats/cen7-mtxj-b.npy	28 47 13 32 39 28 50
+data/train/feats/cen8-mtxj-b.npy	31 60 89 59 67 49 44 61 29 40 36
+data/train/feats/an151-mwhw-b.npy	18 3 18 24 6 15 28 90 33
+data/train/feats/an152-mwhw-b.npy	41 58 86
+data/train/feats/an153-mwhw-b.npy	53 5 27 6 5 14 36
+data/train/feats/an154-mwhw-b.npy	2 82 59 78 86 2 79 31 31 2 59 7
+data/train/feats/an155-mwhw-b.npy	2 65 81 40
+data/train/feats/cen1-mwhw-b.npy	52 3 34 5
+data/train/feats/cen2-mwhw-b.npy	52 3 53 27 6
+data/train/feats/cen3-mwhw-b.npy	33 12
+data/train/feats/cen4-mwhw-b.npy	2 59 51 4 23 52 18 6 3 42
+data/train/feats/cen5-mwhw-b.npy	17 20 2 59 35 31 27 20 3
+data/train/feats/cen6-mwhw-b.npy	33 13 32 15 15
+data/train/feats/cen7-mwhw-b.npy	39 50 13 33 13 39 15
+data/train/feats/cen8-mwhw-b.npy	9 37 12 33

@@ -1,0 +1,130 @@
+data/test/feats/an406-fcaw-b.npy	2 82 59 78 86 17 25 6 10 47 28
+data/test/feats/an407-fcaw-b.npy	6 81 56 84 4 2 80 2 80 10 36
+data/test/feats/an408-fcaw-b.npy	2 59 3 31 54 13 47
+data/test/feats/an409-fcaw-b.npy	17 76
+data/test/feats/an410-fcaw-b.npy	2 82 59 78 86 27 20 25 27 33
+data/test/feats/cen1-fcaw-b.npy	52 31 31 5
+data/test/feats/cen2-fcaw-b.npy	4 20 27 5 53
+data/test/feats/cen3-fcaw-b.npy	33 47 36
+data/test/feats/cen4-fcaw-b.npy	25 6 24 2 92 20 27
+data/test/feats/cen5-fcaw-b.npy	2 79 24 6 3 35 3 27 42 18 20 24 24 35
+data/test/feats/cen6-fcaw-b.npy	33 13 50 47 39
+data/test/feats/cen7-fcaw-b.npy	39 13 13 7 36 15 55
+data/test/feats/cen8-fcaw-b.npy	9 49 36 12 36
+data/test/feats/an416-fjlp-b.npy	30
+data/test/feats/an417-fjlp-b.npy	2 65 81 28 33 39 28
+data/test/feats/an418-fjlp-b.npy	2 65 81 7 28 90 36
+data/test/feats/an419-fjlp-b.npy	21 2 79 6 17 15
+data/test/feats/an420-fjlp-b.npy	6 81 56 84 2 94 3 17 27 3 39 45 13
+data/test/feats/cen1-fjlp-b.npy	2 79 3 42 42 6 34 35 31 27
+data/test/feats/cen2-fjlp-b.npy	21 3 27 6 42
+data/test/feats/cen3-fjlp-b.npy	33 12
+data/test/feats/cen4-fjlp-b.npy	35 2 79 6 6 34
+data/test/feats/cen5-fjlp-b.npy	25 4 23 6 6 35 34 31 4 23 35
+data/test/feats/cen6-fjlp-b.npy	33 13 33 47 39
+data/test/feats/cen7-fjlp-b.npy	47 47 33 32 33 7 7
+data/test/feats/cen8-fjlp-b.npy	48 49 28 12 28
+data/test/feats/an426-fvap-b.npy	2 65 81 28 50 7
+data/test/feats/an427-fvap-b.npy	6 81 56 84 6 5 54 6 12 39
+data/test/feats/an428-fvap-b.npy	2 65 81 7 44 87 62 74
+data/test/feats/an429-fvap-b.npy	2 82 59 78 86 6 53 10 4 2 94 15
+data/test/feats/an430-fvap-b.npy	34 18 27 17 3 12 15 7 95 47
+data/test/feats/cen1-fvap-b.npy	2 79 31 52 6 24 24
+data/test/feats/cen2-fvap-b.npy	2 92 3 27 6 35 35 3
+data/test/feats/cen3-fvap-b.npy	47 55 50 33
+data/test/feats/cen4-fvap-b.npy	52 20 24 24 6 42 42
+data/test/feats/cen5-fvap-b.npy	2 59 34 6 27 42 52 31 31 5
+data/test/feats/cen6-fvap-b.npy	33 13 50 50 36
+data/test/feats/cen7-fvap-b.npy	7 7 15 47 39 15 7
+data/test/feats/cen8-fvap-b.npy	43 49 36 40 50
+data/test/feats/an431-marh-b.npy	2 82 59 78 86 27 35 2 92 18 42 39 14 28
+data/test/feats/an432-marh-b.npy	2 94 27 23 51 7
+data/test/feats/an433-marh-b.npy	2 65 81 15 13 7 50 33
+data/test/feats/an434-marh-b.npy	6 81 56 84 2 79 2 80 53 2 92 42 13 28 90 7
+data/test/feats/an435-marh-b.npy	2 65 81 50 8
+data/test/feats/cen1-marh-b.npy	18 31 51 35 6 34
+data/test/feats/cen2-marh-b.npy	3 24 3 27
+data/test/feats/cen3-marh-b.npy	12 50 29
+data/test/feats/cen4-marh-b.npy	4 6 27 42 34 6
+data/test/feats/cen5-marh-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/test/feats/cen6-marh-b.npy	33 13 50 47 50
+data/test/feats/cen7-marh-b.npy	39 7 47 39 55 50 36
+data/test/feats/cen8-marh-b.npy	26 95 2 84 60 76 75 29 40 13
+data/test/feats/an401-mdms2-b.npy	2 65 81 36 33 13 15
+data/test/feats/an402-mdms2-b.npy	30
+data/test/feats/an403-mdms2-b.npy	17 10 42 51 33 47 47 50
+data/test/feats/an404-mdms2-b.npy	24 23 23 27 45 7
+data/test/feats/an405-mdms2-b.npy	2 82 59 78 86 2 92 54 21 18 2 79 36 45 39
+data/test/feats/cen1-mdms2-b.npy	35 3 27 5 24 6 34
+data/test/feats/cen2-mdms2-b.npy	5 3 2 92 20 5
+data/test/feats/cen3-mdms2-b.npy	50 14
+data/test/feats/cen4-mdms2-b.npy	52 20 24 24 31 52 2 59 6 27 5
+data/test/feats/cen5-mdms2-b.npy	34 31 4 18 6 35 42 6 34
+data/test/feats/cen6-mdms2-b.npy	33 15 39 33 7
+data/test/feats/cen7-mdms2-b.npy	36 33 39 50 15 15 39 36 33 15
+data/test/feats/cen8-mdms2-b.npy	25 58 60 70 36 29 40 36
+data/test/feats/an421-menk-b.npy	2 65 81 49 33
+data/test/feats/an422-menk-b.npy	2 65 81 45
+data/test/feats/an423-menk-b.npy	5 3 21 27 18 28 90 39
+data/test/feats/an424-menk-b.npy	35 53 10 4 5 28 39 32 33 36
+data/test/feats/an425-menk-b.npy	2 65 81 33 38 39
+data/test/feats/cen1-menk-b.npy	23 3 51 10 25 3 27
+data/test/feats/cen2-menk-b.npy	6 34 20 4
+data/test/feats/cen3-menk-b.npy	40 39 45 47
+data/test/feats/cen4-menk-b.npy	2 59 20 34 4 18 52 31 31 5
+data/test/feats/cen5-menk-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/test/feats/cen6-menk-b.npy	33 13 50 33 36
+data/test/feats/cen7-menk-b.npy	15 50 33 7 7 39 32
+data/test/feats/cen8-menk-b.npy	13 49 36 40 39
+data/test/feats/an396-miry-b.npy	6 81 56 84 3 2 59 10 27 2 80 12 36
+data/test/feats/an397-miry-b.npy	42 34 42 10 20 36
+data/test/feats/an398-miry-b.npy	2 82 59 78 86 4 2 59 52 2 94 2 92 15
+data/test/feats/an399-miry-b.npy	52 53 3 42 51 38 36 38 36
+data/test/feats/an400-miry-b.npy	2 65 81 7
+data/test/feats/cen1-miry-b.npy	53 3 27 3 35 3 23
+data/test/feats/cen2-miry-b.npy	20 2 92 3 27
+data/test/feats/cen3-miry-b.npy	48 45 47
+data/test/feats/cen4-miry-b.npy	25 31 34 6 52 31 31 5
+data/test/feats/cen5-miry-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/test/feats/cen6-miry-b.npy	33 13 50 33 47
+data/test/feats/cen7-miry-b.npy	50 39 7 15 39 28 15
+data/test/feats/cen8-miry-b.npy	21 56 74 91 58 95 36 88 29 40 36
+data/test/feats/an436-mjgm-b.npy	2 65 81 36
+data/test/feats/an437-mjgm-b.npy	3 2 59 2 92 21 28 90 15
+data/test/feats/an438-mjgm-b.npy	2 82 59 78 86 17 34 3 17 7 95 13
+data/test/feats/an439-mjgm-b.npy	2 65 81 13 39 7
+data/test/feats/an440-mjgm-b.npy	41 77
+data/test/feats/cen1-mjgm-b.npy	25 53 6 34 35
+data/test/feats/cen2-mjgm-b.npy	21 31 18 27
+data/test/feats/cen3-mjgm-b.npy	50 50 39
+data/test/feats/cen4-mjgm-b.npy	4 6 5 3 34 2 92 20 24 24 6
+data/test/feats/cen5-mjgm-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/test/feats/cen6-mjgm-b.npy	33 13 50 50 15
+data/test/feats/cen7-mjgm-b.npy	39 7 47 47 32 36 13
+data/test/feats/cen8-mjgm-b.npy	30 92 62 73 59 67 27 71 74 88 40 13
+data/test/feats/an391-mjwl-b.npy	2 65 81 50 28 7 33
+data/test/feats/an392-mjwl-b.npy	34 66 63 86
+data/test/feats/an393-mjwl-b.npy	6 81 56 84 51 5 2 59 6 13
+data/test/feats/an394-mjwl-b.npy	2 82 59 78 86 51 2 59 51 42 34 39
+data/test/feats/an395-mjwl-b.npy	2 65 81 33 32 15
+data/test/feats/cen1-mjwl-b.npy	24 6 2 92 20 35 31 27
+data/test/feats/cen2-mjwl-b.npy	21 6 10 10 34 6 53
+data/test/feats/cen3-mjwl-b.npy	29
+data/test/feats/cen4-mjwl-b.npy	2 79 18 20 27 27 6 53
+data/test/feats/cen5-mjwl-b.npy	24 6 2 94 20 27 17 42 31 27
+data/test/feats/cen6-mjwl-b.npy	32 50 33 36 47
+data/test/feats/cen7-mjwl-b.npy	7 39 50 32 47 7 36
+data/test/feats/cen8-mjwl-b.npy	22 74 62 8 88 29 40 7
+data/test/feats/an441-mmxg-b.npy	2 94 23 20 42 2 59 50 39 33 33
+data/test/feats/an442-mmxg-b.npy	53 62 83
+data/test/feats/an443-mmxg-b.npy	30
+data/test/feats/an444-mmxg-b.npy	6 81 56 84 23 25 18 27 20 39 32 13
+data/test/feats/an445-mmxg-b.npy	6 81 56 84 10 31 2 94 23 7
+data/test/feats/cen1-mmxg-b.npy	17 20 27 35 2 59 6 34 17
+data/test/feats/cen2-mmxg-b.npy	25 20 4 18 3 6 24
+data/test/feats/cen3-mmxg-b.npy	3 36
+data/test/feats/cen4-mmxg-b.npy	25 3 34 17 3 34 6 42 25 31 34 34 20 35 31 27
+data/test/feats/cen5-mmxg-b.npy	2 79 20 42 42 35 2 59 51 34 17 18
+data/test/feats/cen6-mmxg-b.npy	33 13 50 33 47
+data/test/feats/cen7-mmxg-b.npy	15 33 50 50 39 7 15 33 15 50
+data/test/feats/cen8-mmxg-b.npy	31 60 89 59 67 49 15 29 38
