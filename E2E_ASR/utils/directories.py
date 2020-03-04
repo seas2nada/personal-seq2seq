@@ -20,6 +20,6 @@ def FileExists(dir):
         return False
 
 # return model directory
-def ModelDir(model_save_dir, epoch, learning_rate):
-    model_dir = model_save_dir + '/model_' + str(learning_rate) + '_' + str(epoch)
+def ModelDir(model_save_dir, epoch, learning_rate, mtl_alpha):
+    model_dir = model_save_dir + '/model_' + str(learning_rate) + 'lr_' + str(epoch) + 'ep_' + str(mtl_alpha) + 'mtl'
     return model_dir

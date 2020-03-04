@@ -80,8 +80,8 @@ def main(train_set, test_set):
     decode = True   # decide whether to print output results or not while training/testing
     train = True
     test = True
-    early_stop = False # stop training early with loss<1
-    graph = True    # attention graph
+    early_stop = False # stop training early (early stop condition can be changed in run_seq2seq.py)
+    graph = False    # attention graph
 
     # get parsed datas
     parser = get_parser()
@@ -99,7 +99,7 @@ def main(train_set, test_set):
     model_load_dir = None
     
     If continue training: Usage
-    model_load_dir = ModelDir(model_dir, last trained epoch, learning_rate)
+    model_load_dir = ModelDir(model_dir, last trained epoch, learning_rate, mtl_alpha)
     """
     model_load_dir = None
 
@@ -122,9 +122,9 @@ def main(train_set, test_set):
 
     # test
     if test:
-        model_load_dir = ModelDir(model_dir, epoch - 1, args.learning_rate) if early_stop else ModelDir(model_dir,
+        model_load_dir = ModelDir(model_dir, epoch - 1, args.learning_rate, args.mtl_alpha) if early_stop else ModelDir(model_dir,
                                                                                                         args.epochs - 1,
-                                                                                                        args.learning_rate)
+                                                                                                        args.learning_rate, args.mtl_alpha)
         _ = run(not test, test_loader, args, model_dir, device, graph=graph, graph_dir=graph_dir,
             model_load_dir=model_load_dir, decode=decode)
 

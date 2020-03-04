@@ -16,10 +16,10 @@ elayers=4
 subsample="1_2_2_1_1"
 
 # decoder arguments
-output_size=29
+output_size=30
 emb_size=320
 dlayers=1
-mtl_alpha=0.3
+mtl_alpha=0.5
 
 # attention arguments
 att_size=320
@@ -31,13 +31,13 @@ aconv_filts=100
 ctc_type="warpctc"
 
 # training arguments
-epochs=10
+epochs=100
 dropout=0.2
 teacher_forcing_ratio=0.5
 clip_threshold=5
 
 # optimization arguments
-optimizer='adadelta'
+optimizer='adam'
 learning_rate=0.001
 lr_decay=0.1
 eps=1e-8
@@ -53,7 +53,7 @@ test_set=data/test
 decoding_index=5
 
 # stage
-stage=1
+stage=3
 
 if [ ${stage} -le 1 ]; then
   # extract features
@@ -84,6 +84,7 @@ if [ ${stage} -le 2 ]; then
   cat temp/tkn_text.txt | sed 's/^▁ //g' > temp/tk_text.txt
   echo "<sos>" >> temp/token_word.txt
   echo "<eos>" >> temp/token_word.txt
+  echo "<blank>" >> temp/token_word.txt
   cat temp/tk_text.txt | sed 's/ /\n/g' | sed '/^$/d' | LC_COLLATE="ko_KR.UTF-8" sort -u >> temp/token_word.txt
 
   output_size=`wc -l temp/token_word.txt | awk -F ' ' '{print $1}'`

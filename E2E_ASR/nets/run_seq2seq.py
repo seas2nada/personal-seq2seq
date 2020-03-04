@@ -9,6 +9,8 @@ import time
 import random
 from tqdm import tqdm
 import numpy as np
+import editdistance
+from itertools import groupby
 
 # internal modules
 import nets.encoders as encoders
@@ -25,6 +27,7 @@ from utils.index2text import index_to_text
 # index setting for sequence
 sos = 0
 eos = 1
+blank = "<blank>"
 ignore_index = -1
 
 class Model(nn.Module):
@@ -48,23 +51,34 @@ class Model(nn.Module):
 
         :return decoder outputs, attention graph of decoding_index data, total loss
         """
-        # RNN encoding
+        # 1. RNN encoding
         encoder_outputs, seqlen, states = encoders.encoding(self.encoder, seqlen,
                                                    batch_xs)  # states: [n_layers * (hidden, cell)]
 
-        # Attention based decoding
-        decoder_output, attention_graph, att_loss = decoders.decoding(self.args, self.decoder, self.att, batch_ys_in, batch_ys_out,
-                                                                  ys_mask, seqlen, encoder_outputs, train=train)
-
         if self.args.mtl_alpha > 1 or self.args.mtl_alpha < 0:
             raise ValueError('mlt_alpha should be in 0~1. Now: {}'.format(args.mtl_alpha))
-        # Use hybrid CTC-attention
-        elif self.args.mtl_alpha > 0 and self.args.mtl_alpha < 1:
+
+        # 2. CTC decoding
+        elif self.args.mtl_alpha==1:
             ctc_loss = self.ctc(encoder_outputs, seqlen, batch_ys_out)
-            loss = self.args.mtl_alpha * ctc_loss + (1 - self.args.mtl_alpha) * att_loss
-        # Use only attention
-        else:
+            attention_graph = None
+            decoder_output = self.ctc.argmax(encoder_outputs).data
+            loss = ctc_loss
+
+        # 3. Attention decoding
+        elif self.args.mtl_alpha==0:
+            decoder_output, attention_graph, att_loss = decoders.decoding(self.args, self.decoder, self.att, batch_ys_in, batch_ys_out,
+                                                                  ys_mask, seqlen, encoder_outputs, train=train)
             loss = att_loss
+
+        # 4. Joint CTC-attention decoding
+        else:
+            ctc_loss = self.ctc(encoder_outputs, seqlen, batch_ys_out)
+            decoder_output, attention_graph, att_loss = decoders.decoding(self.args, self.decoder, self.att,
+                                                                          batch_ys_in, batch_ys_out,
+                                                                          ys_mask, seqlen, encoder_outputs, train=train)
+            loss = self.args.mtl_alpha * ctc_loss + (1 - self.args.mtl_alpha) * att_loss
+
         if math.isnan(float(loss)):
             raise ValueError('loss calculation is incorrect: {}'.format(float(loss)))
 
@@ -87,6 +101,23 @@ def init_like_chainer(model):
     # https://discuss.pytorch.org/t/set-forget-gate-bias-of-lstm/1745
     for l in range(len(model.decoder.decoder)):
         set_forget_bias_to_one(model.decoder.decoder[l].bias_ih)
+
+def calculate_accuracy(y_hat, y_true, word_eds, word_ref_lens, char_eds, char_ref_lens):
+    # calculate sentence distance between hyp and ref
+    seq_hat_text = index_to_text([idx for idx in y_hat if int(idx) != -1])
+    seq_hat_text = seq_hat_text.replace(blank, '')
+    seq_true_text = index_to_text([idx for idx in y_true if int(idx) != -1])
+
+    hyp_words = seq_hat_text.split()
+    ref_words = seq_true_text.split()
+    word_eds.append(editdistance.eval(hyp_words, ref_words))
+    word_ref_lens.append(len(ref_words))
+    hyp_chars = seq_hat_text.replace(' ', '')
+    ref_chars = seq_true_text.replace(' ', '')
+    char_eds.append(editdistance.eval(hyp_chars, ref_chars))
+    char_ref_lens.append(len(ref_chars))
+
+    return word_eds, word_ref_lens, char_eds, char_ref_lens
 
 def run(train, loader, args, model_dir, device, graph=False, graph_dir=None, model_load_dir=None, decode=False, early_stop=False):
 
@@ -125,13 +156,13 @@ def run(train, loader, args, model_dir, device, graph=False, graph_dir=None, mod
         start_time = time.time()
 
         # model save directory setting
-        model_save_dir = ModelDir(model_dir, epoch, args.learning_rate)
+        model_save_dir = ModelDir(model_dir, epoch, args.learning_rate, args.mtl_alpha)
 
         iter = 0  # iteration count
-        total_acc = 0  # batch total accuracy
+        total_wer = 0  # batch total WER
+        total_cer = 0   # batch total CER
         total_loss = 0  # batch total loss
         for data, target, seq_len, ys_len in tqdm(loader):
-            batch_size = data.size(0)
 
             batch_xs = data.permute(0, 2, 1).to(device)
             batch_ys_in = target.to(device)
@@ -166,16 +197,43 @@ def run(train, loader, args, model_dir, device, graph=False, graph_dir=None, mod
                 avg_loss = total_loss / (iter + 1)
 
             # accuracy calculation
-            prediction = decoder_output.argmax(2).unsqueeze(2)  # prediction.size() = [batch_size, args.max_out, 1]
-            prediction = prediction * ys_mask  # mask after <eos>
-            answer = batch_ys_out * ys_mask    # mask after <eos>
+            prediction = decoder_output  # prediction.size() = [batch_size, args.max_out, 1]
+            word_eds, word_ref_lens, char_eds, char_ref_lens = [], [], [], []
 
-            accuracy = (prediction.eq(answer).sum() - num_ignores) * 100 / (
-                        args.max_out * batch_size - num_ignores)  # accuracy calculation excluding ignore indexes
-            total_acc += accuracy
-            avg_acc = total_acc / (iter + 1)
+            # attention based decoding (Attention or Joint CTC-attention)
+            if args.mtl_alpha<1:
+                prediction = prediction.argmax(2).unsqueeze(2)
+                prediction.masked_fill_(~ys_mask.bool(), -1)
 
-            iter += 1
+                for i, y_hat in enumerate(prediction):
+                    y_true = batch_ys_out[i]
+                    word_eds, word_ref_lens, char_eds, char_ref_lens = calculate_accuracy(y_hat, y_true, word_eds,
+                                                                                          word_ref_lens, char_eds,
+                                                                                          char_ref_lens)
+                    if i==args.decoding_index:
+                        seq_hat_text_print = index_to_text([idx for idx in y_hat if int(idx) != -1]).replace(blank, '')
+                        seq_true_text_print = index_to_text([idx for idx in y_true if int(idx) != -1])
+
+            # CTC based decoding (Character-based CTC)
+            else:
+                for i, y in enumerate(prediction):
+                    y_hat = [x[0] for x in groupby(y)]
+                    y_true = batch_ys_out[i]
+                    word_eds, word_ref_lens, char_eds, char_ref_lens = calculate_accuracy(y_hat, y_true, word_eds,
+                                                                                          word_ref_lens, char_eds,
+                                                                                          char_ref_lens)
+                    if i==args.decoding_index:
+                        seq_hat_text_print = index_to_text([idx for idx in y_hat if int(idx) != -1]).replace(blank, '')
+                        seq_true_text_print = index_to_text([idx for idx in y_true if int(idx) != -1])
+
+            # calculate average CER
+            cer = float(sum(char_eds))*100 / sum(char_ref_lens)
+            wer = float(sum(word_eds))*100 / sum(word_ref_lens)
+            total_cer += cer
+            total_wer += wer
+            avg_cer = total_cer / (iter+1)
+            avg_wer = total_wer / (iter + 1)
+            iter+=1
 
         # Apply learning rate or epsilon decay
         if args.optimizer == "adam" and args.lr_decay is not None and not lr_decay_applied and float(avg_loss) < 5:
@@ -191,22 +249,24 @@ def run(train, loader, args, model_dir, device, graph=False, graph_dir=None, mod
 
         # plot attention graph
         if graph:
+            if args.mtl_alpha==1:
+                raise ValueError('graph should be false when mtl_alpha=1 (CTC-only)')
             file_prefix=epoch if train else "TEST"
             PlotAttention(batch_ys_out[args.decoding_index], num_seq, attention_graph, graph_dir, file_prefix)
 
         # printout decoding result without beam search
         end_time = time.time()
         if decode:
-            print('hyp:', index_to_text(prediction[args.decoding_index, :num_seq + 1].squeeze(1)))
-            print('ref:', index_to_text(batch_ys_out[args.decoding_index, :num_seq + 1].squeeze(1)))
+            print('hyp:', seq_hat_text_print)
+            print('ref:', seq_true_text_print)
         if train:
-            print('Epoch: {}\tLoss: {:.3f}\tAccuracy: {:.3f}'.format(epoch + 1, avg_loss, avg_acc))
+            print('Epoch: {}\tLoss: {:.3f}\tCER: {:.3f}\tWER: {:.3f}'.format(epoch + 1, avg_loss, avg_cer, avg_wer))
         else:
-            print('Test Accuracy: {:.3f}'.format(avg_acc))
+            print('Test CER: {:.3f}\tWER: {:.3f}'.format(avg_cer, avg_wer))
         print('Elapsed Time: {}s'.format(int(end_time - start_time)))
 
         # stop early when loss decreased enough
-        if train and early_stop and float(avg_loss)<1:
+        if train and early_stop and float(avg_cer)<1:
             print("Training has been stopped early with epoch: {}".format(epoch+1) + '\n')
             break
 
