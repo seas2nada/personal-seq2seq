@@ -125,7 +125,10 @@ class LocationAttention(torch.nn.Module):
         if att_prev is None:
             # if no bias, 0 0-pad goes 0
             att_prev = (1. - make_pad_mask(seqlen).to(device=self.device, dtype=hidden.dtype))
-            whatisthis = seqlen.clone().to(self.device)
+            if isinstance(seqlen, torch.Tensor):
+                whatisthis = seqlen.clone().to(self.device)
+            else:
+                whatisthis = torch.tensor(seqlen).clone().to(self.device)
             att_prev = att_prev / whatisthis.unsqueeze(-1)
 
         # att_prev: batch_size x frame -> batch_size x 1 x 1 x frame -> batch_size x att_conv_chans x 1 x frame

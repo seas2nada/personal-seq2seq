@@ -19,7 +19,7 @@ subsample="1_2_2_1_1"
 output_size=30
 emb_size=320
 dlayers=1
-mtl_alpha=0.5
+mtl_alpha=0.3
 
 # attention arguments
 att_size=320
@@ -37,7 +37,7 @@ teacher_forcing_ratio=0.5
 clip_threshold=5
 
 # optimization arguments
-optimizer='adam'
+optimizer='adadelta'
 learning_rate=0.001
 lr_decay=0.1
 eps=1e-8
@@ -49,11 +49,18 @@ whole_set=data/Combined_data
 train_set=data/train
 test_set=data/test
 
-# decode index (n_th output)
+# decode index without beam search (n_th output)
 decoding_index=5
 
+# decoding related arguments
+beam_size=10
+penalty=0
+maxlenratio=0.0
+minlenratio=0.0
+ctc_weight=0
+
 # stage
-stage=3
+stage=4
 
 if [ ${stage} -le 1 ]; then
   # extract features
@@ -137,4 +144,38 @@ if [ ${stage} -le 3 ]; then
         --clip_threshold ${clip_threshold} \
         --optimizer ${optimizer} \
         --decoding_index ${decoding_index}
+  exit
+fi
+
+if [ ${stage} -le 4 ]; then
+  # prepare training
+  echo 'stage 4: Decoding'
+  python3 asr_recog.py \
+        --batch_size ${batch_size} \
+        --max_in ${max_in} \
+        --max_out ${max_out} \
+        --etype ${etype} \
+        --atype ${atype} \
+        --ctc_type ${ctc_type} \
+        --input_size ${input_size} \
+        --output_size ${output_size} \
+        --emb_size ${emb_size} \
+        --hidden_size ${hidden_size} \
+        --att_size ${att_size} \
+        --aconv_chans ${aconv_chans} \
+        --aconv_filts ${aconv_filts} \
+        --mtl_alpha ${mtl_alpha} \
+        --elayers ${elayers} \
+        --dlayers ${dlayers} \
+        --subsample ${subsample} \
+        --dropout ${dropout} \
+        --epochs ${epochs} \
+        --learning_rate ${learning_rate} \
+        --optimizer ${optimizer} \
+        --beam_size ${beam_size} \
+        --penalty ${penalty} \
+        --maxlenratio ${maxlenratio} \
+        --minlenratio ${minlenratio} \
+        --ctc_weight ${ctc_weight}
+
 fi

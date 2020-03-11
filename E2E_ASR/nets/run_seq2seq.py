@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 # basic libraries
+import os
 import time
 import random
 from tqdm import tqdm
@@ -18,7 +19,7 @@ import nets.decoders as decoders
 import nets.attention as attentions
 import nets.ctc as ctcs
 from utils.data_generator import ignore_ys_padded, sort_by_len
-from utils.directories import CheckDir, ModelDir
+from utils.directories import CheckDir, ModelDir, FileExists
 from utils.mask import make_pad_mask
 from utils.plot import PlotAttention, PlotSignal
 from utils.nets_utils import *
@@ -84,6 +85,34 @@ class Model(nn.Module):
 
         return decoder_output, attention_graph, loss
 
+    def recognize_batch(self, batch_xs, seqlen, recog_args):
+        """
+        E2E beam search.
+
+        :param batch_xs: batch input feature
+        :param seqlen: feature sequence lengths
+        :param recog_args: recognize arguments
+        :return: y: n_best hyps
+        """
+
+        # 1. ENN Encoding
+        encoder_outputs, seqlen, states = encoders.encoding(self.encoder, seqlen,
+                                                            batch_xs)  # states: [n_layers * (hidden, cell)]
+
+        # calculate log P(z_t|X) for CTC scores
+        if recog_args.ctc_weight > 0.0:
+            lpz = self.ctc.log_softmax(encoder_outputs)
+            normalize_score = False
+        else:
+            lpz = None
+            normalize_score = True
+
+        # 2. Decoder
+        seqlen = torch.tensor(list(map(int, seqlen)))  # make sure seqlen is tensor
+        y = self.decoder.recognize_beam_batch(self.att, encoder_outputs, seqlen, lpz, recog_args, normalize_score=normalize_score)
+
+        return y
+
 def init_like_chainer(model):
     """Initialize weight like chainer.
 
@@ -107,6 +136,8 @@ def calculate_accuracy(y_hat, y_true, word_eds, word_ref_lens, char_eds, char_re
     seq_hat_text = index_to_text([idx for idx in y_hat if int(idx) != -1])
     seq_hat_text = seq_hat_text.replace(blank, '')
     seq_true_text = index_to_text([idx for idx in y_true if int(idx) != -1])
+    print(seq_true_text)
+    print(seq_hat_text)
 
     hyp_words = seq_hat_text.split()
     ref_words = seq_true_text.split()
@@ -271,3 +302,63 @@ def run(train, loader, args, model_dir, device, graph=False, graph_dir=None, mod
             break
 
     return epoch+1
+
+def recog(loader, recog_args, model_load_dir, result_log, device):
+    start_time = time.time()
+
+    model = Model(recog_args, device)
+    model = model.to(device)
+
+    # Load saved model
+    model.load_state_dict(torch.load(model_load_dir), strict=False)
+    model.eval()
+
+    # result log
+    if FileExists(result_log):
+        os.remove(result_log)
+    f = open(result_log, 'a')
+
+    iter = 0
+    total_cer = 0
+    total_wer = 0
+
+    for data, target, seq_len, ys_len in tqdm(loader):
+
+        batch_xs = data.permute(0, 2, 1).to(device)
+        batch_ys_in = target.to(device)
+        seqlen = seq_len.squeeze(1).to(device)
+        ys_in_len = ys_len.squeeze(1).to(device)
+
+        # sort by decreasing order for pack_padded_sequence
+        batch_xs, batch_ys_in, seqlen, ys_in_len = sort_by_len(batch_xs, batch_ys_in, seqlen, ys_in_len)
+
+        # get mask for accuracy calculation & ys input sequence length
+        batch_ys_out, ys_mask, num_ignores = ignore_ys_padded(batch_ys_in, ys_in_len, recog_args.max_out, device)
+
+        word_eds, word_ref_lens, char_eds, char_ref_lens = [], [], [], []
+
+        with torch.no_grad():
+            nbest_hyps = model.recognize_batch(batch_xs, seqlen, recog_args)
+
+            for i in range(len(nbest_hyps)):
+                y_hat = nbest_hyps[i][0]['yseq'][1:-1]
+                y_true = batch_ys_out[i, :int(ys_in_len[i])]
+                word_eds, word_ref_lens, char_eds, char_ref_lens = calculate_accuracy(y_hat, y_true, word_eds,
+                                                                                      word_ref_lens, char_eds,
+                                                                                      char_ref_lens)
+                f.write("hyp:\t" + index_to_text(nbest_hyps[i][0]['yseq'][1:-1]) + '\n')
+                f.write("ref:\t" + index_to_text(batch_ys_out[i, :int(ys_in_len[i])]) + '\n' + '\n')
+
+            cer = float(sum(char_eds)) * 100 / sum(char_ref_lens)
+            wer = float(sum(word_eds)) * 100 / sum(word_ref_lens)
+            total_cer += cer
+            total_wer += wer
+            avg_cer = total_cer / (iter + 1)
+            avg_wer = total_wer / (iter + 1)
+            iter += 1
+
+    end_time = time.time()
+    f.write("Avg CER: {:.3f}\tAvg WER: {:.3f}".format(avg_cer, avg_wer))
+    print('Decoding CER: {:.3f}\tWER: {:.3f}'.format(avg_cer, avg_wer))
+    print('Elapsed Time: {}s'.format(int(end_time - start_time)))
+    f.close()

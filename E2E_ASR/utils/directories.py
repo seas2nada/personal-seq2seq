@@ -5,7 +5,7 @@ import sys
 # argument should come in format of list
 def CheckDir(dir_list):
     if type(dir_list)!=list:
-        dir_list = list(dir_list)
+        dir_list = [dir_list]
 
     for dir in dir_list:
         if not os.path.exists(dir):
